@@ -30,14 +30,16 @@ class ProductsController extends Controller
     public function index()
     {
 
-        $products = $this->productRepository->paginate(5);
+        $products = $this->productRepository->paginate(15);
 
         return view('admin.products.index', compact('products'));
     }
 
     public function create()
     {
-        return view('admin.products.create');
+        $categories = $this->categoryRepository->lists('name', 'id');
+
+        return view('admin.products.create', compact('categories'));
     }
 
     public function store(AdminProductRequest $request)
@@ -51,7 +53,7 @@ class ProductsController extends Controller
 
     public function edit($id)
     {
-        $categories = $this->categoryRepository->all(['name','id']);
+        $categories = $this->categoryRepository->lists('name', 'id');
         $product = $this->productRepository->find($id);
 
         return view('admin.products.edit', compact('product','categories'));
@@ -62,6 +64,13 @@ class ProductsController extends Controller
 
         $data = $request->all();
         $this->productRepository->update($data, $id);
+
+        return redirect()->route('admin.products.index');
+    }
+
+    public function destroy($id)
+    {
+        $this->productRepository->delete($id);
 
         return redirect()->route('admin.products.index');
     }

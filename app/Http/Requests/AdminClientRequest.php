@@ -2,9 +2,9 @@
 
 namespace CodeDelivery\Http\Requests;
 
-use CodeDelivery\Http\Requests\Request;
+#use CodeDelivery\Http\Requests\Request;
 
-class AdminProductRequest extends Request
+class AdminClientRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +13,7 @@ class AdminProductRequest extends Request
      */
     public function authorize()
     {
-        return true;
+        return true; //#por sempre true nisso aqui
     }
 
     /**
@@ -24,10 +24,12 @@ class AdminProductRequest extends Request
     public function rules()
     {
         return [
-            'name' => 'required|min:3',
-            'description' => 'required',
-            'price' => 'required',
-            'category_id' => 'required',
+            'user_id' => 'required',
+            'phone' => 'required',
+            'address' => 'required',
+            'city' => 'required',
+            'state' => 'required',
+            'zipcode' => 'required',
         ];
     }
 }

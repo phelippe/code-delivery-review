@@ -14,6 +14,11 @@ use CodeDelivery\Validators\UserValidator;
  */
 class UserRepositoryEloquent extends BaseRepository implements UserRepository
 {
+
+    public function lists($column, $key = NULL)
+    {
+        return $this->model->lists($column, $key);
+    }
     /**
      * Specify Model class name
      *

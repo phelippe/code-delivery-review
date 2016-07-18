@@ -12,12 +12,15 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('order', function (Blueprint $table) {
+        Schema::create('orders', function (Blueprint $table) {
             $table->increments('id');
+
             $table->integer('client_id')->unsigned();
-            $table->foreign('client_id')->refences('id')->on('clients');
+            $table->foreign('client_id')->references('id')->on('clients');
+
             $table->integer('user_deliveryman_id')->unsigned()->nullable();
-            $table->foreign('user_deliveryman_id')->refences('id')->on('users');
+            $table->foreign('user_deliveryman_id')->references('id')->on('users');
+
             $table->decimal('total');
             $table->smallInteger('status')->default(0);
             $table->timestamps();
@@ -31,6 +34,6 @@ class CreateOrdersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('order');
+        Schema::drop('orders');
     }
 }

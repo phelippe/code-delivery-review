@@ -24,6 +24,7 @@
 						<td>{{$p->category->name}}</td>
 						<td>
 							<a href="{{ route('admin.products.edit', ['id'=>$p->id]) }}" class="btn btn-default btn-sm">{{--<i class="fa fa-pencil"/>--}}Editar</a>
+							<a href="{{ route('admin.products.destroy', ['id'=>$p->id]) }}" class="btn btn-danger btn-sm">{{--<i class="fa fa-pencil"/>--}}Remover</a>
 						</td>
 					</tr>
 				@endforeach

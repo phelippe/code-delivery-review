@@ -22,6 +22,7 @@
 						<td>{{$c->name}}</td>
 						<td>
 							<a href="{{ route('admin.categories.edit', ['id'=>$c->id]) }}" class="btn btn-default btn-sm">{{--<i class="fa fa-pencil"/>--}}Editar</a>
+							<a href="{{ route('admin.categories.destroy', ['id'=>$c->id]) }}" class="btn btn-danger btn-sm">{{--<i class="fa fa-pencil"/>--}}Remover</a>
 						</td>
 					</tr>
 				@endforeach
