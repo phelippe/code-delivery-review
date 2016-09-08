@@ -17,12 +17,16 @@ class Order extends Model implements Transformable
         'status',
     ];
 
+    public function client(){
+        return $this->belongsTo(Client::class, 'client_id', 'id');
+    }
+
     public function items(){
-        return $this->hasMany(Product::class);
+        return $this->hasMany(OrderItem::class);
     }
 
     public function deliveryman(){
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class, 'client_id', 'id');
     }
 
     public function products(){

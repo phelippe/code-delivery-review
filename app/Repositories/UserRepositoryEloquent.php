@@ -15,10 +15,19 @@ use CodeDelivery\Validators\UserValidator;
 class UserRepositoryEloquent extends BaseRepository implements UserRepository
 {
 
-    public function lists($column, $key = NULL)
+    protected $skipPresenter = true;
+
+    public function getDeliverymen()
+    {
+        return $this->model->where(['role'=>'deliveryman'])->lists('name', 'id');
+    }
+
+    /*public function lists($column, $key = NULL)
     {
         return $this->model->lists($column, $key);
-    }
+    }*/
+
+
     /**
      * Specify Model class name
      *
