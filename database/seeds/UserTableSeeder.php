@@ -1,6 +1,7 @@
 <?php
 
 use CodeDelivery\Models\Client;
+use CodeDelivery\Models\Cupom;
 use CodeDelivery\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -38,5 +39,6 @@ class UserTableSeeder extends Seeder
                 'role' => 'deliveryman',
             ]
         );
+
     }
 }

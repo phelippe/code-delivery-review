@@ -56,6 +56,12 @@ Route::group(['middleware'=> 'auth.checkrole','prefix'=>'admin', 'as'=>'admin.']
         Route::get('destroy/{id}', ['as'=>'destroy', 'uses'=>'ClientsController@destroy']);*/
     });
 
+    Route::group(['prefix'=>'cupoms', 'as'=>'cupoms.'], function(){
+        Route::get('', ['as'=>'index', 'uses'=>'CupomsController@index']);
+        Route::get('create', ['as'=>'create', 'uses'=>'CupomsController@create']);
+        Route::get('store', ['as'=>'store', 'uses'=>'CupomsController@store']);
+    });
+
 
 });
 
