@@ -50,7 +50,7 @@ class OrdersController extends Controller
             3=>'Cancelado',
         ];
 
-        $order = $this->orderRepository->with(['client', 'deliveryman', 'items'])->find($id);
+        $order = $this->orderRepository->find($id);
         $deliveryman = $this->userRepository->getDeliverymen();
 
         #dd($order,$deliveryman);
