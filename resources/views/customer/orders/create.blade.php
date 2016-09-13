@@ -6,9 +6,37 @@
 
 		@include('errors._check')
 
-		{!! Form::open(['route'=> 'customer.products.store']) !!}
+		{!! Form::open(['class'=> 'form']) !!}
 
-			@include('customer.products._form')
+		<div class="form-group"><label for="">Total: </label>
+
+			<p id="total"></p>
+			<a href="#" class="btn btn-default">Novo item</a>
+			<table class="table table-bordered">
+				<thead>
+				<tr>
+					<th>Produto</th>
+					<th>Quantidade</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>
+						<select name="items[0][product_id]" id="" class="form-control">
+							@foreach($products as $p)
+								<option value="{{$p->id}}" data-price="{{$p->price}}">{{$p->name}} -- {{$p->price}}</option>
+							@endforeach
+						</select>
+					</td>
+					<td>
+						{!! Form::text('items[0][qtd]', 1, ['class'=>'form-control']) !!}
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+
 
 			<div class="form-group">
 				{!! Form::submit('Realizar pedido', ['class'=>'btn btn-primary']) !!}
