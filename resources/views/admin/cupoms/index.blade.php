@@ -4,7 +4,7 @@
 	<div class="container">
 		<h3>Categorias</h3>
 
-		<a href="{{ route('admin.categories.create') }}" class="btn btn-default">Nova categoria</a>
+		<a href="{{ route('admin.cupoms.create') }}" class="btn btn-default">Novo cupom</a>
 		<br/><br/>
 
 		<table class="table table-bordered">
@@ -22,8 +22,7 @@
 						<td>{{$c->id}}</td>
 						<td>{{$c->code}}</td>
 						<td>{{$c->value}}</td>
-						<td>
-							<a href="{{ route('admin.cupoms.edit', ['id'=>$c->id]) }}" class="btn btn-default btn-sm">{{--<i class="fa fa-pencil"/>--}}Editar</a>
+						<td> -
 						</td>
 					</tr>
 				@endforeach

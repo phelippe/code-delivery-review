@@ -14,6 +14,12 @@ use CodeDelivery\Validators\ProductValidator;
  */
 class ProductRepositoryEloquent extends BaseRepository implements ProductRepository
 {
+
+    public function lists($column, $key = NULL)
+    {
+        return $this->model->lists($column, $key);
+    }
+
     /**
      * Specify Model class name
      *
@@ -23,8 +29,6 @@ class ProductRepositoryEloquent extends BaseRepository implements ProductReposit
     {
         return Product::class;
     }
-
-    
 
     /**
      * Boot up the repository, pushing criteria

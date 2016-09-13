@@ -14,10 +14,11 @@ use CodeDelivery\Validators\ClientValidator;
  */
 class ClientRepositoryEloquent extends BaseRepository implements ClientRepository
 {
-    public function lists($column, $key = NULL)
+    #não funciona 
+    /*public function lists()
     {
-        return $this->model->lists($column, $key);
-    }
+        return $this->model->lists('name', 'id');
+    }*/
     /**
      * Specify Model class name
      *
