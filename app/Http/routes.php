@@ -64,10 +64,11 @@ Route::group(['middleware'=> 'auth.checkrole','prefix'=>'admin', 'as'=>'admin.']
 
 });
 
-Route::group(['prefix'=>'customer', 'as'=>'customer.'], function(){
+Route::group(['prefix'=>'customer', 'as'=>'customer.', 'middleware'=>'auth.checkrole:client'], function(){
     Route::group(['prefix'=>'order', 'as'=>'order.'], function(){
+        Route::get('', ['as'=>'index', 'uses'=>'CheckoutController@index']);
         Route::get('create', ['as'=>'create', 'uses'=>'CheckoutController@create']);
-
+        Route::post('store', ['as'=>'store', 'uses'=>'CheckoutController@store']);
     });
 });
 
