@@ -78,6 +78,33 @@ Route::post('oauth/access_token', function(){
 
 
 Route::group(['prefix'=>'api', 'middleware'=>'oauth', 'as'=>'api.'], function(){
+
+    Route::group(['prefix'=>'client', 'as'=>'client.', 'middleware'=>'oauth.checkrole:client'], function(){
+
+
+        Route::resource('order', 'Api\Client\ClientCheckoutController',
+            ['except' => ['create', 'edit', 'destroy']]
+        );
+    });
+
+    Route::group(['prefix'=>'deliveryman', 'as'=>'deliveryman.', 'middleware'=>'oauth.checkrole:deliveryman'], function(){
+        Route::get('pedidos', function(){
+            return [
+                'id' => 1,
+                'client' => 'JOão usuário tete - ENTREGADOR',
+                'total' => 10.5
+            ];
+        });
+    });
+
+
+
+
+
+
+
+
+
     Route::get('pedidos', function(){
         return [
             'id' => 1,
