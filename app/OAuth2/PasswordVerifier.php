@@ -3,6 +3,8 @@
 namespace CodeDelivery\OAuth2;
 
 
+use Illuminate\Support\Facades\Auth;
+
 class PasswordVerifier
 {
 
