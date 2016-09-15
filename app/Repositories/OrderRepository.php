@@ -11,4 +11,5 @@ use Prettus\Repository\Contracts\RepositoryInterface;
 interface OrderRepository extends RepositoryInterface
 {
     //
+    public function getByIdAndDeliveryman($order_id, $deliveryman_id);
 }

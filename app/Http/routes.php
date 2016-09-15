@@ -90,13 +90,13 @@ Route::group(['prefix'=>'api', 'middleware'=>'oauth', 'as'=>'api.'], function(){
     });
 
     Route::group(['prefix'=>'deliveryman', 'as'=>'deliveryman.', 'middleware'=>'oauth.checkrole:deliveryman'], function(){
-        Route::get('pedidos', function(){
-            return [
-                'id' => 1,
-                'client' => 'JOão usuário tete - ENTREGADOR',
-                'total' => 10.5
-            ];
-        });
+        Route::resource('order', 'Api\Deliveryman\DeliverymanCheckoutController',
+            ['except' => ['create', 'edit', 'destroy', 'store']]
+        );
+        Route::patch('order/{id}/update-status', [
+            'uses'=> 'Api\Deliveryman\DeliverymanCheckoutController@updateStatus',
+            'as'=> 'order.update-status'
+        ]);
     });
 
 

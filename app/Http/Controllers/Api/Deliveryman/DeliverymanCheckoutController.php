@@ -1,17 +1,19 @@
 <?php
 
-namespace CodeDelivery\Http\Controllers\Api\Client;
+namespace CodeDelivery\Http\Controllers\Api\Deliveryman;
 
 use CodeDelivery\Http\Controllers\Controller;
 use CodeDelivery\Http\Requests;
+use CodeDelivery\Models\Order;
 use CodeDelivery\Repositories\OrderRepository;
+use CodeDelivery\Repositories\ProductRepository;
 use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Services\OrderService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
-class ClientCheckoutController extends Controller
+class DeliverymanCheckoutController extends Controller
 {
 
 
@@ -39,40 +41,34 @@ class ClientCheckoutController extends Controller
 
     public function index()
     {
-        #dd($this->userRepository->find(Auth::user()->id)->client->id);
         $id = Authorizer::getResourceOwnerId();
-        $client_id = $this->userRepository->find($id)->client->id;
 
-        $orders = $this->orderRepository->with(['items'])->scopeQuery(function($query) use ($client_id){
-            return $query->where('client_id', '=', $client_id);
+        $orders = $this->orderRepository->with(['items'])->scopeQuery(function($query) use ($id){
+            return $query->where('user_deliveryman_id', '=', $id);
         })->paginate();
 
         return $orders;
     }
 
-    public function store(Request $request)
-    {
-        $data = $request->all();
-        $id = Authorizer::getResourceOwnerId();
-        $client_id = $this->userRepository->find($id)->client->id;
-
-        $data['client_id'] = $client_id;
-
-        $order = $this->orderService->create($data);
-
-        $order = $this->orderRepository->with(['items'])->find($order->id);
-
-        return $order;
-    }
-
     public function show($id)
     {
-        $order = $this->orderRepository->with(['client', 'items', 'cupom'])->find($id);
+        $id_deliveryman = Authorizer::getResourceOwnerId();
 
-        $order->items->each(function($item){
-            $item->product;
-        });
+        return $this->orderRepository->getByIdAndDeliveryman($id, $id_deliveryman);
+    }
 
-        return $order;
+    public function updateStatus(Request $request, $id)
+    {
+        $id_deliveryman = Authorizer::getResourceOwnerId();
+
+        #dd($request->get('status'), $id);
+        $order = $this->orderService->updateStatus($id, $id_deliveryman, $request->get('status'));
+        #dd($order);
+
+        if($order instanceof Order){
+            return $order;
+        }
+
+        abort(400, 'Order não encontrada');
     }
 }
