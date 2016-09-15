@@ -86,7 +86,7 @@ class ClientsController extends Controller
 
         $id = Authorizer::getResourceOwnerId();
 
-        $user = $this->userRepository->find($id);
+        $user = $this->userRepository->skipPresenter(false)->find($id);
 
         #dd($user);
 

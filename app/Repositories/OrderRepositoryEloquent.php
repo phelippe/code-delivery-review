@@ -2,11 +2,9 @@
 
 namespace CodeDelivery\Repositories;
 
-use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Illuminate\Support\Collection;
+use CodeDelivery\Presenters\OrderPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Models\Order;
 use CodeDelivery\Validators\OrderValidator;
 
@@ -37,6 +35,12 @@ class OrderRepositoryEloquent extends BaseRepository implements OrderRepository
     {
         $this->pushCriteria(app(RequestCriteria::class));
     }
+
+    public function presenter()
+    {
+        return OrderPresenter::class;
+    }
+
 
     public function getByIdAndDeliveryman($order_id, $deliveyman_id)
     {
