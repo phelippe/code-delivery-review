@@ -1,7 +1,8 @@
 <?php
 
-namespace CodeDelivery\Http\Controllers;
+namespace CodeDelivery\Http\Controllers\Api\Client;
 
+use CodeDelivery\Http\Controllers\Controller;
 use CodeDelivery\Http\Requests;
 use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Repositories\ProductRepository;
@@ -9,8 +10,9 @@ use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Services\OrderService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
-class CheckoutController extends Controller
+class ClientCheckoutController extends Controller
 {
 
 
@@ -46,28 +48,39 @@ class CheckoutController extends Controller
     public function index()
     {
         #dd($this->userRepository->find(Auth::user()->id)->client->id);
-        $client_id = $this->userRepository->find(Auth::user()->id)->client->id;
-        $orders = $this->orderRepository->scopeQuery(function($query) use ($client_id){
+        $id = Authorizer::getResourceOwnerId();
+        $client_id = $this->userRepository->find($id)->client->id;
+
+        $orders = $this->orderRepository->with(['items'])->scopeQuery(function($query) use ($client_id){
             return $query->where('client_id', '=', $client_id);
         })->paginate();
 
-        return view('customer.order.index', compact('orders'));
+        return $orders;
     }
 
     public function store(Request $request)
     {
         $data = $request->all();
-        $client_id = $this->userRepository->find(Auth::user()->id)->client->id;
+        $id = Authorizer::getResourceOwnerId();
+        $client_id = $this->userRepository->find($id)->client->id;
 
         $data['client_id'] = $client_id;
 
-        $this->orderService->create($data);
+        $order = $this->orderService->create($data);
 
-        return redirect()->route('customer.order.index');
+        $order = $this->orderRepository->with(['items'])->find($order->id);
+
+        return $order;
     }
 
     public function show($id)
     {
+        $order = $this->orderRepository->with(['client', 'items', 'cupom'])->find($id);
 
+        $order->items->each(function($item){
+            $item->product;
+        });
+
+        return $order;
     }
 }

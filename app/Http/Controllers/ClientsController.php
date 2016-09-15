@@ -9,6 +9,7 @@ use CodeDelivery\Http\Requests;
 use CodeDelivery\Repositories\ClientRepository;
 use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Services\ClientService;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
 class ClientsController extends Controller
 {
@@ -79,5 +80,16 @@ class ClientsController extends Controller
         $this->clientRepository->delete($id);
 
         return redirect()->route('admin.clients.index');
+    }
+
+    public function getAuthenticated(){
+
+        $id = Authorizer::getResourceOwnerId();
+
+        $user = $this->userRepository->find($id);
+
+        #dd($user);
+
+        return $user;
     }
 }
