@@ -3,6 +3,9 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
+
+angular.module('starter.controllers', []);
+
 angular.module('starter', ['ionic', 'starter.controllers','angular-oauth2'])
 
     .run(function($ionicPlatform) {
@@ -40,17 +43,38 @@ angular.module('starter', ['ionic', 'starter.controllers','angular-oauth2'])
         });
 
         $stateProvider
-              .state('login', {
+            .state('login', {
                 url: '/login',
                 templateUrl: 'templates/login.html',
                 controller: 'LoginCtrl',
-              })
-              .state('home', {
+            })
+            .state('home', {
                 url: '/home',
                 templateUrl: 'templates/home.html',
                 controller: function($scope){
 
                 },
-              })
+            })
+            .state('client', {
+                abstract: true,
+                url: '/clieint',
+                template: '<ui-view/>'
+            })
+            .state('client.checkout', {
+                url: '/checkout',
+                template: 'templates/client/checkout.html',
+                controller: 'ClientCheckoutCtrl'
+            })
+            .state('client.checkout_item_detail', {
+                url: '/checkout/detail/:index',
+                template: 'templates/client/checkout_item_detail.html',
+                controller: 'ClientCheckoutCtrl'
+            })
+            .state('client.view_products', {
+                url: '/view_products',
+                template: 'templates/client/view_products.html',
+                controller: 'ClientViewProductsCtrl'
+            })
+
         //$urlRouterProvider.otherwise('/');
     });
