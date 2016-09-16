@@ -1,10 +1,10 @@
 angular.module('starter.controllers',[]).
-    controller('HomeCtrl', ['$scope', 'OAuth', '$ionicPopup', '$state', function($scope, OAuth, $ionicPopup, $state){
+    controller('LoginCtrl', ['$scope', 'OAuth', '$ionicPopup', '$state', function($scope, OAuth, $ionicPopup, $state){
 
-        /*$scope.user = {
+        $scope.user = {
             username: '',
             password: ''
-        }*/
+        }
 
         $scope.login = function(){
             OAuth.getAccessToken($scope.user)
