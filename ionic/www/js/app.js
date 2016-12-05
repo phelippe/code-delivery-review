@@ -6,7 +6,7 @@
 
 angular.module('starter.controllers', []);
 
-angular.module('starter', ['ionic', 'starter.controllers','angular-oauth2'])
+angular.module('starter', ['ionic', 'angular-oauth2', 'starter.controllers'])
 
     .run(function($ionicPlatform) {
       $ionicPlatform.ready(function() {
@@ -52,27 +52,27 @@ angular.module('starter', ['ionic', 'starter.controllers','angular-oauth2'])
                 url: '/home',
                 templateUrl: 'templates/home.html',
                 controller: function($scope){
-
+                    console.log('HOME');
                 },
             })
             .state('client', {
                 abstract: true,
-                url: '/clieint',
+                url: '/client',
                 template: '<ui-view/>'
             })
             .state('client.checkout', {
                 url: '/checkout',
-                template: 'templates/client/checkout.html',
+                templateUrl: 'templates/client/checkout.html',
                 controller: 'ClientCheckoutCtrl'
             })
             .state('client.checkout_item_detail', {
                 url: '/checkout/detail/:index',
-                template: 'templates/client/checkout_item_detail.html',
-                controller: 'ClientCheckoutCtrl'
+                templateUrl: 'templates/client/checkout_item_detail.html',
+                controller: 'ClientCheckoutDetailCtrl'
             })
             .state('client.view_products', {
-                url: '/view_products',
-                template: 'templates/client/view_products.html',
+                url: '/view-products',
+                templateUrl: 'templates/client/view_products.html',
                 controller: 'ClientViewProductsCtrl'
             })
 
