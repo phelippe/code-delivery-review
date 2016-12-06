@@ -7,6 +7,7 @@
 angular.module('starter.controllers', []);
 
 angular.module('starter', ['ionic', 'angular-oauth2', 'starter.controllers'])
+    .constant('appConfig')
 
     .run(function($ionicPlatform) {
       $ionicPlatform.ready(function() {
@@ -58,7 +59,7 @@ angular.module('starter', ['ionic', 'angular-oauth2', 'starter.controllers'])
             .state('client', {
                 abstract: true,
                 url: '/client',
-                template: '<ui-view/>'
+                template: '<ion-nav-view/>'
             })
             .state('client.checkout', {
                 url: '/checkout',
