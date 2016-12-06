@@ -24,6 +24,7 @@ class ProductTransformer extends TransformerAbstract
             'id'         => (int) $model->id,
             'name'         => $model->name,
             'description'         => $model->description,
+            'price'         => $model->price,
             /* place your other model properties here */
 
             'created_at' => $model->created_at,

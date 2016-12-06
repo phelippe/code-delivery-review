@@ -5,77 +5,30 @@ namespace CodeDelivery\Http\Controllers\Api\Client;
 use CodeDelivery\Http\Controllers\Controller;
 use CodeDelivery\Http\Requests;
 use CodeDelivery\Repositories\OrderRepository;
+use CodeDelivery\Repositories\ProductRepository;
 use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Services\OrderService;
 use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
-class ClientCheckoutController extends Controller
+class ClientProductController extends Controller
 {
 
 
     /**
-     * @var OrderRepository
+     * @var ProductRepository
      */
-    private $orderRepository;
-    /**
-     * @var UserRepository
-     */
-    private $userRepository;
-    /**
-     * @var OrderService
-     */
-    private $orderService;
+    private $productRepository;
 
-    private $with = ['client', 'cupom', 'items'];
-
-   public function __construct(OrderRepository $orderRepository,
-                                UserRepository $userRepository,
-                                OrderService $orderService)
+    public function __construct(ProductRepository $productRepository)
     {
-        $this->orderRepository = $orderRepository;
-        $this->userRepository = $userRepository;
-        $this->orderService = $orderService;
+      $this->productRepository = $productRepository;
     }
 
     public function index()
     {
-        $id = Authorizer::getResourceOwnerId();
-        $client_id = $this->userRepository->find($id)->client->id;
+      $products = $this->productRepository->skipPresenter(false)->all();
 
-        $orders = $this->orderRepository
-            ->skipPresenter(false)
-            ->with($this->with)
-            ->scopeQuery(function($query) use ($client_id){
-                return $query->where('client_id', '=', $client_id);
-        })->paginate();
-
-        return $orders;
+      return $products;
     }
 
-    public function store(Requests\CheckoutRequest $request)
-    {
-
-        $data = $request->all();
-        $id = Authorizer::getResourceOwnerId();
-        $client_id = $this->userRepository->find($id)->client->id;
-
-        $data['client_id'] = $client_id;
-
-        $order = $this->orderService->create($data);
-
-        #$order = $this->orderRepository->with(['items'])->find($order->id);
-
-        return $this->orderRepository
-            ->skipPresenter(false)
-            ->with($this->with)
-            ->find($order->id);
-    }
-
-    public function show($id)
-    {
-        return $this->orderRepository
-            ->skipPresenter(false)
-            ->with(['client', 'items', 'cupom'])
-            ->find($id);
-    }
 }
