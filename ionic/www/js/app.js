@@ -5,9 +5,14 @@
 // the 2nd parameter is an array of 'requires'
 
 angular.module('starter.controllers', []);
+angular.module('starter.services', []);
 
-angular.module('starter', ['ionic', 'angular-oauth2', 'starter.controllers'])
-    .constant('appConfig')
+angular.module('starter', [
+    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource'
+])
+    .constant('appConfig', {
+        baseUrl: 'http://localhost:8000'
+    })
 
     .run(function($ionicPlatform) {
       $ionicPlatform.ready(function() {
@@ -27,10 +32,10 @@ angular.module('starter', ['ionic', 'angular-oauth2', 'starter.controllers'])
       });
     })
 
-    .config(function( $stateProvider, $urlRouterProvider, OAuthProvider, OAuthTokenProvider ){
+    .config(function( $stateProvider, $urlRouterProvider, OAuthProvider, OAuthTokenProvider, appConfig ){
 
         OAuthProvider.configure({
-            baseUrl: 'http://localhost:8000',
+            baseUrl: appConfig.baseUrl,
             clientId: 'appid01',
             clientSecret: 'secret', // optional
             grantPath: 'oauth/access_token',
