@@ -35,7 +35,8 @@ angular.module('starter', [
     .config(function( $stateProvider, $urlRouterProvider, OAuthProvider, OAuthTokenProvider, appConfig ){
 
         OAuthProvider.configure({
-            baseUrl: appConfig.baseUrl,
+            //baseUrl: appConfig.baseUrl,
+            baseUrl: 'http://localhost:8000',
             clientId: 'appid01',
             clientSecret: 'secret', // optional
             grantPath: 'oauth/access_token',

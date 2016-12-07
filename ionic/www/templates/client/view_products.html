@@ -1,6 +1,16 @@
 <ion-view>
     <ion-nav-title>Checkout - View products</ion-nav-title>
+    <div class="bar bar-subheader">
+        <h1 class="title">Escolha seu produto</h1>
+    </div>
     <ion-content class="padding has-header">
-        View Product
+        <ion-list>
+            <ion-item ng-repeat="o in products">
+                {{o.name}}
+                <span class="item-note">
+                    <i class="ion ion-cash">{{o.price}}</i>
+                </span>
+            </ion-item>
+        </ion-list>
     </ion-content>
 </ion-view>
