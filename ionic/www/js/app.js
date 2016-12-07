@@ -67,7 +67,15 @@ angular.module('starter', [
                 url: '/client',
                 template: '<ion-nav-view/>'
             })
-            .state('client.checkout', {
+            .state('client.authenticated', {
+                url: '/authenticated',
+                templateUrl: 'templates/client/authenticated.html',
+                controller: 'ClientProfileCtrl'
+                /*controller: function($scope){
+                    console.log('HOME');
+                },*/
+            })
+            /*.state('client.checkout', {
                 url: '/checkout',
                 templateUrl: 'templates/client/checkout.html',
                 controller: 'ClientCheckoutCtrl'
@@ -76,7 +84,7 @@ angular.module('starter', [
                 url: '/checkout/detail/:index',
                 templateUrl: 'templates/client/checkout_item_detail.html',
                 controller: 'ClientCheckoutDetailCtrl'
-            })
+            })*/
             .state('client.view_products', {
                 url: '/view-products',
                 templateUrl: 'templates/client/view_products.html',
