@@ -1,6 +1,12 @@
 angular.module('starter.controllers').
 controller('ClientCheckoutCtrl', [
-    '$scope', 'OAuth', '$ionicPopup', '$state', function($scope, OAuth, $ionicPopup, $state){
-        console.log('checkout');
+    '$scope', '$state', '$cart',
+    function($scope, $state, $cart){
+
+        var cart = $cart.get();
+
+        $scope.items = cart.items;
+        $scope.total = cart.total;
+
     }]
 );

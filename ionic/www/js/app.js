@@ -75,12 +75,12 @@ angular.module('starter', [
                     console.log('HOME');
                 },*/
             })
-            /*.state('client.checkout', {
+            .state('client.checkout', {
                 url: '/checkout',
                 templateUrl: 'templates/client/checkout.html',
                 controller: 'ClientCheckoutCtrl'
             })
-            .state('client.checkout_item_detail', {
+            /*.state('client.checkout_item_detail', {
                 url: '/checkout/detail/:index',
                 templateUrl: 'templates/client/checkout_item_detail.html',
                 controller: 'ClientCheckoutDetailCtrl'
@@ -92,4 +92,7 @@ angular.module('starter', [
             })
 
         //$urlRouterProvider.otherwise('/');
+    })
+    .service('cart', function(){
+        this.items = [];
     });
