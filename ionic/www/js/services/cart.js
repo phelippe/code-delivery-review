@@ -57,6 +57,17 @@ service('$cart', [
             $localStorage.setObject(key, cart);
         };
 
+        this.updateQtd = function (i, qtd) {
+            var cart = this.get(),
+                itemAux = cart.items[i];
+
+            itemAux.qtd = qtd;
+            itemAux.subTotal = calculateSubTotal(itemAux);
+            cart.total = getTotal(cart.items);
+
+            $localStorage.setObject(key, cart);
+        }
+
         function calculateSubTotal(item){
             return item.price * item.qtd;
         }

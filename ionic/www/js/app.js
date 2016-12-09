@@ -80,11 +80,11 @@ angular.module('starter', [
                 templateUrl: 'templates/client/checkout.html',
                 controller: 'ClientCheckoutCtrl'
             })
-            /*.state('client.checkout_item_detail', {
+            .state('client.checkout_item_detail', {
                 url: '/checkout/detail/:index',
                 templateUrl: 'templates/client/checkout_item_detail.html',
                 controller: 'ClientCheckoutDetailCtrl'
-            })*/
+            })
             .state('client.view_products', {
                 url: '/view-products',
                 templateUrl: 'templates/client/view_products.html',

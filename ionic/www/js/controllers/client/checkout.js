@@ -14,6 +14,13 @@ controller('ClientCheckoutCtrl', [
             $scope.total = $cart.get().total;
         };
 
+        $scope.openProductDetail = function (i) {
+            $state.go('client.checkout_item_detail', {index: i});
+        }
+
+        $scope.openListProducts = function (i) {
+            $state.go('client.view_products', { index: i})
+        }
 
     }]
 );

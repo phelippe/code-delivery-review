@@ -3,13 +3,6 @@ controller('ClientViewProductsCtrl', [
     '$scope', '$state', 'ProductService', '$ionicLoading', '$cart', '$localStorage',
     function($scope, $state, ProductService, $ionicLoading, $cart, $localStorage){
 
-        /*console.log($localStorage.setObject('cart', {
-            name: "Ionic",
-            version: "1.1.0"
-        }));*/
-        //delete window.localStorage['cart'];
-        //$localStorage.delete('cart');
-
         $scope.products = [];
 
         $ionicLoading.show({
@@ -17,11 +10,10 @@ controller('ClientViewProductsCtrl', [
         });
 
         products = ProductService.query({}, function (data) {
-            //console.log(data.data);
-
             $scope.products = data.data;
             $ionicLoading.hide();
         }, function(error){
+            console.log(error);
             $ionicLoading.hide();
         });
 
