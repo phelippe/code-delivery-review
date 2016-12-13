@@ -5,11 +5,11 @@
             <ion-item ng-repeat="o in orders" ng-click="openOrderDetail($index)">
                 <h2>{{o.data}}</h2>
                 <div class="row">
-                    <h2>{{o.created_at.date | date:'medium'}}</h2>
-                    <div class="col">
-                        Qtd: {{o.items_qtd}}
-                    </div>
-                    <div class="col text-right">
+                    <h2 class="col">Data do pedido: {{o.created_at.date | limitTo: 10 |date: 'dd/MM/yyyy'}}</h2>
+                </div>
+                <div class="row">
+                    <div class="col col-75">Qtd de itens: {{o.items.data.length}}</div>
+                    <div class="col col-25 note">
                         Status: {{o.status}}
                     </div>
                 </div>

@@ -11,7 +11,15 @@ angular.module('starter', [
     'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource'
 ])
     .constant('appConfig', {
-        baseUrl: 'http://localhost:8000'
+        baseUrl: 'http://localhost:8000',
+        order: {
+            status: [
+                { value: 0, label: 'Não iniciada'},
+                { value: 1, label: 'Não iniciada'},
+                { value: 2, label: 'Não iniciada'},
+                { value: 3, label: 'Não iniciada'},
+            ]
+        }
     })
 
     .run(function($ionicPlatform) {

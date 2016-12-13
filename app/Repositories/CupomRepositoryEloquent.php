@@ -33,4 +33,19 @@ class CupomRepositoryEloquent extends BaseRepository implements CupomRepository
     {
         $this->pushCriteria(app(RequestCriteria::class));
     }
+
+    public function findByCode($code)
+    {
+        $result = $this->model
+          ->where('code', $code)
+          ->where('used', 0)
+          ->first();
+
+        if($result){
+            return $this->parserResult($result);
+        }
+        throw (new ModelNotFoundException)->setModel(get_class($this->model));
+    }
+
+
 }
