@@ -75,6 +75,11 @@ angular.module('starter', [
                     console.log('HOME');
                 },*/
             })
+            .state('client.orders', {
+                url: '/orders',
+                templateUrl: 'templates/client/order_list.html',
+                controller: 'ClientOrderListCtrl'
+            })
             .state('client.checkout', {
                 cache: false,
                 url: '/checkout',
@@ -85,6 +90,11 @@ angular.module('starter', [
                 url: '/checkout/detail/:index',
                 templateUrl: 'templates/client/checkout_item_detail.html',
                 controller: 'ClientCheckoutDetailCtrl'
+            })
+            .state('client.checkout_successful', {
+                url: '/checkout/successful',
+                templateUrl: 'templates/client/checkout_successful.html',
+                controller: 'ClientCheckoutSuccessfulCtrl'
             })
             .state('client.view_products', {
                 url: '/view-products',
