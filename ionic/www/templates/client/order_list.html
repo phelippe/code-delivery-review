@@ -2,11 +2,12 @@
     <ion-nav-title>Seus pedidos</ion-nav-title>
     <ion-content class="padding has-header">
         <ion-list>
-            <ion-item ng-repeat="o in pedidos" ng-click="openOrderDetail($index)">
+            <ion-item ng-repeat="o in orders" ng-click="openOrderDetail($index)">
                 <h2>{{o.data}}</h2>
                 <div class="row">
+                    <h2>{{o.created_at.date | date:'medium'}}</h2>
                     <div class="col">
-                        Qtd: {{o.qtd}}
+                        Qtd: {{o.items_qtd}}
                     </div>
                     <div class="col text-right">
                         Status: {{o.status}}

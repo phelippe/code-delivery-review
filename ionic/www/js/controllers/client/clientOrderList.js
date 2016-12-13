@@ -1,29 +1,27 @@
 angular.module('starter.controllers').
     controller('ClientOrderListCtrl', [
-    '$scope', '$state', '$cart', 'OrderService',
-    function($scope, $state, $cart, OrderService){
+    '$scope', '$state', '$cart', 'OrderService','$ionicLoading', '$ionicPopup',
+    function($scope, $state, $cart, OrderService, $ionicLoading, $ionicPopup){
 
-        console.log('order list');
-        /*var cart = $cart.get();
+        $scope.orders = [];
 
-        $scope.items = cart.items;
-        $scope.total = cart.total;
-
-        $cart.clear();
+        $ionicLoading.show({
+            template: 'Carregando ...'
+        });
 
 
-        $scope.openListOrder = function(){
-            $state.go('client.orders')
-        };*/
+        orders = OrderService.query({}, function(data){ //#sucesso
 
-        OrderService.save({id: null},{items: items}, function(data){ //#sucesso
+            $scope.orders = data.data;
+
             $ionicLoading.hide();
-            $state.go('client.checkout_successful');
+            //$state.go('client.checkout_successful');
         }, function (responseError) { //#erro
+            //console.log(response  Error);
             $ionicLoading.hide();
             $ionicPopup.alert({
                 title: 'Advertência',
-                template: 'Pedido não realizado! Tente novamente.'
+                template: 'Ocorreu um erro ao tentar acessar os pedidos. Tente novamente.'
             });
         });
     }

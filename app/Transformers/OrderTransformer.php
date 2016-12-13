@@ -27,7 +27,9 @@ class OrderTransformer extends TransformerAbstract
         return [
             'id'         => (int) $model->id,
             'total'         => (float) $model->total,
-            'items'         => $model->status,
+            'status'         => $model->status,
+            'items'      => $model->items,
+            'items_qtd'      => count($model->items),
 
             /* place your other model properties here */
 
