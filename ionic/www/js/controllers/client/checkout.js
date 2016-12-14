@@ -1,12 +1,23 @@
 angular.module('starter.controllers').
 controller('ClientCheckoutCtrl', [
-    '$scope', '$state', '$cart', 'OrderService', '$ionicLoading', '$ionicPopup',
-    function($scope, $state, $cart, OrderService, $ionicLoading, $ionicPopup){
+    '$scope', '$state', '$cart', 'OrderService', '$ionicLoading', '$ionicPopup', 'CupomService',
+    function($scope, $state, $cart, OrderService, $ionicLoading, $ionicPopup, CupomService){
 
+        /*CupomService.get({code: 1234}, function (data) {
+            //console.log(data.data);
+            $cart.setCupom(data.data.code, data.data.value);
+            console.log($cart.getTotalFinal());
+            /!*console.log($cart.get());
+            $cart.removeCupom();
+            console.log($cart.get());*!/
+        }, function(error){
+            console.log(error);
+        });*/
         var cart = $cart.get();
 
         $scope.items = cart.items;
         $scope.total = cart.total;
+        $scope.cupom = cart.cupom;
 
         $scope.removeItem = function(i){
             $cart.removeItem(i);
@@ -16,11 +27,11 @@ controller('ClientCheckoutCtrl', [
 
         $scope.openProductDetail = function (i) {
             $state.go('client.checkout_item_detail', {index: i});
-        }
+        };
 
         $scope.openListProducts = function (i) {
             $state.go('client.view_products', { index: i})
-        }
+        };
 
         $scope.save = function(){
             var items = angular.copy($scope.items);
@@ -44,6 +55,34 @@ controller('ClientCheckoutCtrl', [
                 });
             });
         };
+
+        $scope.readBarCode = function () {
+            getCupomValue(1234);
+        };
+
+        $scope.removeCupom = function () {
+            $cart.removeCupom();
+            $scope.cupom = $cart.get().cupom;
+            $scope.total = $cart.getTotalFinal;
+        };
+
+        function getCupomValue(code){
+            $ionicLoading.show({
+                template: 'Buscando...',
+            });
+            CupomService.get({code: code}, function(data){
+                $cart.setCupom(data.data.code, data.data.value);
+                $scope.cupom = $cart.get().cupom;
+                $scope.total = $cart.getTotalFinal;
+                $ionicLoading.hide();
+            }, function (responseError) {
+                $ionicLoading.hide();
+                $ionicPopup.alert({
+                    title: 'Advertência',
+                    template: 'Cupom não existe ou inválido.'
+                });
+            });
+        }
 
     }]
 );
