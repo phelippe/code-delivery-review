@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f868e8-5049-4ae3-9053-e979a9afc36c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/templates/client/menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/ClientTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/ClientTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/index.html" afterPath="$PROJECT_DIR$/ionic/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" afterPath="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/app.js" afterPath="$PROJECT_DIR$/ionic/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/services/client.js" afterPath="$PROJECT_DIR$/ionic/www/js/services/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/login.html" afterPath="$PROJECT_DIR$/ionic/www/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/client/order_list.html" afterPath="$PROJECT_DIR$/ionic/www/templates/client/order_list.html" />
     </list>
     <ignored path="code-delivery-review.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,28 +31,50 @@
         <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/menu.js">
+      <file leaf-file-name="clientOrderList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientOrderList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/menu.html">
+      <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54635763">
-              <caret line="33" column="61" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24834438">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderTransformer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.882353">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <folding>
+                <element signature="e#87#126#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +111,6 @@
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/clientCheckoutDetail.js" />
         <option value="$PROJECT_DIR$/ionic/www/js/services/order.js" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/clientOrderList.js" />
-        <option value="$PROJECT_DIR$/ionic/www/templates/client/order_list.html" />
         <option value="$PROJECT_DIR$/app/Repositories/CupomRepository.php" />
         <option value="$PROJECT_DIR$/app/Transformers/CupomTransformer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientProductController.php" />
@@ -108,7 +122,6 @@
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/clientCheckoutSuccessful.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/checkout_successful.html" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/login.js" />
-        <option value="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ClientsController.php" />
         <option value="$PROJECT_DIR$/app/Transformers/ClientTransformer.php" />
         <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
@@ -119,10 +132,12 @@
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/checkout.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/menu.html" />
         <option value="$PROJECT_DIR$/ionic/www/templates/login.html" />
-        <option value="$PROJECT_DIR$/ionic/www/js/app.js" />
         <option value="$PROJECT_DIR$/ionic/www/index.html" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/menu.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/menu.html" />
+        <option value="$PROJECT_DIR$/ionic/www/js/app.js" />
+        <option value="$PROJECT_DIR$/app/Transformers/OrderTransformer.php" />
+        <option value="$PROJECT_DIR$/ionic/www/templates/client/order_list.html" />
       </list>
     </option>
   </component>
@@ -764,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientOrderList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/OrderItemRepositoryEloquent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -834,24 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientCheckoutController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08064516">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -934,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/checkout_successful.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -972,14 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7849829">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1088,14 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1108,6 +1078,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54635763">
           <caret line="33" column="61" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientOrderList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/checkout_successful.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23178808">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.882353">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#87#126#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24834438">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -2,8 +2,10 @@
 
 namespace CodeDelivery\Transformers;
 
+//use League\Fractal\Resource\Collection;
 use League\Fractal\TransformerAbstract;
 use CodeDelivery\Models\Order;
+use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class OrderTransformer
@@ -29,12 +31,22 @@ class OrderTransformer extends TransformerAbstract
             'total'         => (float) $model->total,
             'status'         => $this->getStatusName($model->status),
             'items'      => $model->items,
+            'names'      => $this->getArrayProductNames($model->items),
 
             /* place your other model properties here */
 
             'created_at' => $model->created_at,
             'updated_at' => $model->updated_at
         ];
+    }
+
+    public function getArrayProductNames(Collection $items)
+    {
+        $names = [];
+        foreach($items as $item){
+            $names[] = $item->product->name;
+        }
+        return $names;
     }
 
     protected function getStatusName($idStatus)

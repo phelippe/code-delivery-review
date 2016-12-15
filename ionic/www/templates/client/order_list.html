@@ -3,15 +3,18 @@
     <ion-content class="padding has-header">
         <ion-list>
             <ion-item ng-repeat="o in orders" ng-click="openOrderDetail($index)">
-                <h2>{{o.data}}</h2>
                 <div class="row">
-                    <h2 class="col">Data do pedido: {{o.created_at.date | limitTo: 10 |date: 'dd/MM/yyyy'}}</h2>
+                    <div class="col">
+                        <h2>{{o.created_at.date | limitTo: 10 |date: 'dd/MM/yyyy'}}</h2>
+                        <p>{{o.names | limitTo:2 }}</p>
+                        <i class="ion ion-os-cart">{{o.names.length}} Items</i>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="ion ion-ios-cart"> {{o.total}}</i>
                 </div>
                 <div class="row">
-                    <div class="col col-75">Qtd de itens: {{o.items.data.length}}</div>
-                    <div class="col col-25 note">
-                        Status: {{o.status}}
-                    </div>
+                    Status: {{o.status}}
                 </div>
             </ion-item>
         </ion-list>
