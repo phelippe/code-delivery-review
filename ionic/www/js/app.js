@@ -74,7 +74,9 @@ angular.module('starter', [
             .state('client', {
                 abstract: true,
                 url: '/client',
-                template: '<ion-nav-view/>'
+                //template: '<ion-nav-view/>'
+                templateUrl: 'templates/client/menu.html',
+                controller: 'ClientMenuCtrl'
             })
             .state('client.authenticated', {
                 url: '/authenticated',

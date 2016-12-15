@@ -88,8 +88,6 @@ class ClientsController extends Controller
 
         $user = $this->userRepository->skipPresenter(false)->find($id);
 
-        #dd($user);
-
         return $user;
     }
 }

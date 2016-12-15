@@ -110,10 +110,6 @@ Route::group(['middleware'=>'cors'], function(){
 
 
 
-
-
-
-
         Route::get('pedidos', function(){
             return [
                 'id' => 1,
