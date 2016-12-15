@@ -17,12 +17,12 @@ controller('ClientCheckoutCtrl', [
 
         $scope.items = cart.items;
         $scope.total = cart.total;
-        $scope.cupom = cart.cupom;
+        $scope.cupom = $cart.getTotalFinal();
 
         $scope.removeItem = function(i){
             $cart.removeItem(i);
             $scope.items.splice(i, 1);
-            $scope.total = $cart.get().total;
+            $scope.total = $cart.getTotalFinal()
         };
 
         $scope.openProductDetail = function (i) {
@@ -34,9 +34,9 @@ controller('ClientCheckoutCtrl', [
         };
 
         $scope.save = function(){
-            var items = angular.copy($scope.items);
+            var o = {items: angular.copy($scope.items)};
 
-            angular.forEach(items, function (item) {
+            angular.forEach(o.items, function (item) {
                 item.product_id = item.id;
             });
 
@@ -44,7 +44,10 @@ controller('ClientCheckoutCtrl', [
                 template: 'Carregando ...'
             });
 
-            OrderService.save({id: null},{items: items}, function(data){ //#sucesso
+            if($scope.cupom.value){
+                o.cupom_code = $scope.cupom.code;
+            }
+            OrderService.save({id: null}, o, function(data){ //#sucesso
                 $ionicLoading.hide();
                 $state.go('client.checkout_successful');
             }, function (responseError) { //#erro
@@ -63,7 +66,7 @@ controller('ClientCheckoutCtrl', [
         $scope.removeCupom = function () {
             $cart.removeCupom();
             $scope.cupom = $cart.get().cupom;
-            $scope.total = $cart.getTotalFinal;
+            $scope.total = $cart.getTotalFinal();
         };
 
         function getCupomValue(code){
@@ -73,7 +76,7 @@ controller('ClientCheckoutCtrl', [
             CupomService.get({code: code}, function(data){
                 $cart.setCupom(data.data.code, data.data.value);
                 $scope.cupom = $cart.get().cupom;
-                $scope.total = $cart.getTotalFinal;
+                $scope.total = $cart.getTotalFinal();
                 $ionicLoading.hide();
             }, function (responseError) {
                 $ionicLoading.hide();

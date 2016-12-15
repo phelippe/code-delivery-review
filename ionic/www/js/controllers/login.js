@@ -13,7 +13,7 @@ angular.module('starter.controllers').
 
                     /*console.log(data);
                     console.log($cookies.getObject('token'));*/
-                    $state.go('home');
+                    $state.go('client.checkout');
 
                 }, function (responseError) {
                     $ionicPopup.alert({

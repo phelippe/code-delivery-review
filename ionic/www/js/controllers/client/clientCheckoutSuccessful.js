@@ -6,7 +6,8 @@ angular.module('starter.controllers').
         var cart = $cart.get();
 
         $scope.items = cart.items;
-        $scope.total = cart.total;
+        $scope.total = $cart.getTotalFinal();
+        $scope.cupom = cart.cupom;
 
         $cart.clear();
 

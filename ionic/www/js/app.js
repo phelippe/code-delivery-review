@@ -44,7 +44,8 @@ angular.module('starter', [
 
         OAuthProvider.configure({
             //baseUrl: appConfig.baseUrl,
-            baseUrl: 'http://localhost:8000',
+            //baseUrl: 'http://localhost:8000',
+            baseUrl: 'http://192.168.1.154:8000',
             clientId: 'appid01',
             clientSecret: 'secret', // optional
             grantPath: 'oauth/access_token',
@@ -100,6 +101,7 @@ angular.module('starter', [
                 controller: 'ClientCheckoutDetailCtrl'
             })
             .state('client.checkout_successful', {
+                cache: false,
                 url: '/checkout/successful',
                 templateUrl: 'templates/client/checkout_successful.html',
                 controller: 'ClientCheckoutSuccessfulCtrl'
@@ -110,7 +112,7 @@ angular.module('starter', [
                 controller: 'ClientViewProductsCtrl'
             })
 
-        //$urlRouterProvider.otherwise('/');
+        $urlRouterProvider.otherwise('/login');
     })
     .service('cart', function(){
         this.items = [];
