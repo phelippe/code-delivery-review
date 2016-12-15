@@ -8,7 +8,7 @@ angular.module('starter.controllers', []);
 angular.module('starter.services', []);
 
 angular.module('starter', [
-    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource'
+    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource', 'ngCordova'
 ])
     .constant('appConfig', {
         baseUrl: 'http://localhost:8000',
@@ -113,6 +113,40 @@ angular.module('starter', [
             })
 
         $urlRouterProvider.otherwise('/login');
+
+        /*$provide.decorator('OAuthToken', [
+            '$localStorage', '$delegate',
+            $localStorage, $delegate,
+            function(){
+                //console.log($delegate);
+                Object.defineProperties($delegate, {
+                    setToken: {
+                        value: function(data){
+                            return $localStorage.setObject('token', data);
+                        },
+                        enumerable: true,
+                        configurable: true,
+                        writable: true
+                    },
+                    getToken: {
+                        value: function(){
+                            return $localStorage.getObject('token');
+                        },
+                        enumerable: true,
+                        configurable: true,
+                        writable: true
+                    },
+                    removeToken: {
+                        value: function(){
+                            return $localStorage.getObject('token', null);
+                        },
+                        enumerable: true,
+                        configurable: true,
+                        writable: true
+                    }
+                });
+            }
+        ]);*/
     })
     .service('cart', function(){
         this.items = [];

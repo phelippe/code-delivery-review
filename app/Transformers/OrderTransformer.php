@@ -27,7 +27,7 @@ class OrderTransformer extends TransformerAbstract
         return [
             'id'         => (int) $model->id,
             'total'         => (float) $model->total,
-            'status'         => $model->status,
+            'status'         => $this->getStatusName($model->status),
             'items'      => $model->items,
 
             /* place your other model properties here */
@@ -35,6 +35,34 @@ class OrderTransformer extends TransformerAbstract
             'created_at' => $model->created_at,
             'updated_at' => $model->updated_at
         ];
+    }
+
+    protected function getStatusName($idStatus)
+    {
+        $statusName = "";
+        switch($idStatus){
+            case 0: {
+                $statusName = "Aguardando pagamento";
+                break;
+            }
+            case 1: {
+                $statusName = "Saiu para entrega";
+                break;
+            }
+            case 2: {
+                $statusName = "Entregue";
+                break;
+            }
+            case 3: {
+                $statusName = "Cancelado";
+                break;
+            }
+            case 4: {
+                $statusName = "OUTRO - Contate o suporte";
+                break;
+            }
+        }
+        return $statusName;
     }
 
     public function includeCupom(Order $model){
