@@ -37,16 +37,26 @@ controller('ClientCheckoutCtrl', [
             if($scope.cupom.value){
                 o.cupom_code = $scope.cupom.code;
             }
-            OrderService.save({id: null}, o, function(data){ //#sucesso
-                $ionicLoading.hide();
-                $state.go('client.checkout_successful');
-            }, function (responseError) { //#erro
+
+            //console.log($scope.cupom.value, $scope.total);
+            if($scope.cupom.value > $scope.total){
                 $ionicLoading.hide();
                 $ionicPopup.alert({
                     title: 'Advertência',
-                    template: 'Pedido não realizado! Tente novamente.'
+                    template: 'O valor de desconto do cupom é superior ao valor do produto! Por favor adicione mais itens ao carrinho'
                 });
-            });
+            } else {
+                OrderService.save({id: null}, o, function (data) { //#sucesso
+                    $ionicLoading.hide();
+                    $state.go('client.checkout_successful');
+                }, function (responseError) { //#erro
+                    $ionicLoading.hide();
+                    $ionicPopup.alert({
+                        title: 'Advertência',
+                        template: 'Pedido não realizado! Tente novamente.'
+                    });
+                });
+            }
         };
 
         $scope.readBarCode = function () {
