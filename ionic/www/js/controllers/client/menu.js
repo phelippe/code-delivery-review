@@ -1,8 +1,12 @@
 angular.module('starter.controllers').
     controller('ClientMenuCtrl', [
-    '$scope', '$state', '$ionicLoading', 'ClientService',
-    function($scope, $state, $ionicLoading, ClientService){
+    '$scope', '$state', '$ionicLoading', 'ClientService', '$cart',
+    function($scope, $state, $ionicLoading, ClientService, $cart){
 
+        console.log($cart.get().items.length);
+        $scope.cart = {
+            qtd: $cart.get().items.length
+        }
         $scope.user = {
             name: ''
         };
@@ -10,7 +14,6 @@ angular.module('starter.controllers').
         $ionicLoading.show({
             template: 'Carregando ...'
         });
-
 
         orders = ClientService.authenticated({}, function(data){ //#sucesso
 
@@ -25,6 +28,14 @@ angular.module('starter.controllers').
                 title: 'Advertência',
                 template: 'Ocorreu um erro ao tentar acessar os dados do usuário. Tente novamente.'
             });
+        });
+
+        $scope.goCart = function(){
+            $state.go('client.checkout');
+        }
+
+        $scope.$on('$stateChangeSuccess', function(event){
+            $scope.cart.qtd = $cart.get().items.length;
         });
     }
 ]);

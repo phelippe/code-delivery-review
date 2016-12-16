@@ -6,9 +6,10 @@
 
 angular.module('starter.controllers', []);
 angular.module('starter.services', []);
+angular.module('starter.filters', []);
 
 angular.module('starter', [
-    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource', 'ngCordova'
+    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource', 'ngCordova', 'starter.filters'
 ])
     .constant('appConfig', {
         baseUrl: 'http://localhost:8000',
@@ -87,9 +88,15 @@ angular.module('starter', [
                 },*/
             })
             .state('client.orders', {
+                //cache: false, #opção 1 |  opção 2: utilizado refresher
                 url: '/orders',
                 templateUrl: 'templates/client/order_list.html',
                 controller: 'ClientOrderListCtrl'
+            })
+            .state('client.order_detail', {
+                url: '/order/:id',
+                templateUrl: 'templates/client/order_show.html',
+                controller: 'ClientOrderShowCtrl'
             })
             .state('client.checkout', {
                 cache: false,

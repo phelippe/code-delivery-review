@@ -10,7 +10,15 @@ angular.module('starter.controllers').
         });
 
 
-        orders = OrderService.query({}, function(data){ //#sucesso
+        function getOrders() {
+            return OrderService.query({
+                id: null,
+                orderBy: 'created_at',
+                sortedBy: 'desc'
+            }).$promise;
+        };
+
+        getOrders().then(function(data){ //#sucesso
 
             $scope.orders = data.data;
 
@@ -24,5 +32,22 @@ angular.module('starter.controllers').
                 template: 'Ocorreu um erro ao tentar acessar os pedidos. Tente novamente.'
             });
         });
+
+        $scope.doRefresh = function(){
+            getOrders().then(function(data){ //#sucesso
+                $scope.orders = data.data;
+                $scope.$broadcast('scroll.refreshComplete');
+            }, function (responseError) { //#erro
+                $scope.$broadcast('scroll.refreshComplete');
+                $ionicPopup.alert({
+                    title: 'Advertência',
+                    template: 'Ocorreu um erro ao tentar carregar os dados. Tente novamente.'
+                });
+            });
+        };
+
+        $scope.openOrderDetail = function(index){
+            $state.go('client.order_detail', {id: index});
+        }
     }
 ]);

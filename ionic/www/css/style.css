@@ -1,1 +1,17 @@
 /* Empty. Add your own CSS if you like */
+.cart-btn{
+    position: relative;
+}
+.cart-btn .count{
+    position: absolute;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    background-color: #fff;
+    color: #000000;
+    font-weight: 600;
+    width: 15px;
+    height: 15px;
+    bottom: -4px;
+    right: -3px;
+    border-radius: 50%;
+}
