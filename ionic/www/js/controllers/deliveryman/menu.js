@@ -1,5 +1,5 @@
 angular.module('starter.controllers').
-    controller('ClientMenuCtrl', [
+    controller('DeliverymanMenuCtrl', [
     '$scope', '$state', '$ionicLoading', '$ionicPopup', 'ClientService', '$cart', '$cookies',
     function($scope, $state, $ionicLoading, $ionicPopup, ClientService, $cart, $cookies){
         //console.log($cookies.get('token'));

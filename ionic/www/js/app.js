@@ -13,6 +13,7 @@ angular.module('starter', [
 ])
     .constant('appConfig', {
         baseUrl: 'http://localhost:8000',
+        //baseUrl: 'http://192.168.1.154:8000',
         order: {
             status: [
                 { value: 0, label: 'Não iniciada'},
@@ -44,12 +45,11 @@ angular.module('starter', [
     .config(function( $stateProvider, $urlRouterProvider, OAuthProvider, OAuthTokenProvider, appConfig ){
 
         OAuthProvider.configure({
-            //baseUrl: appConfig.baseUrl,
-            baseUrl: 'http://localhost:8000',
-            //baseUrl: 'http://192.168.1.154:8000',
+            baseUrl: appConfig.baseUrl,
             clientId: 'appid01',
             clientSecret: 'secret', // optional
             grantPath: 'oauth/access_token',
+            revokePath: 'oauth/access_token/revoke'
         });
 
         OAuthTokenProvider.configure({
@@ -120,6 +120,23 @@ angular.module('starter', [
                 templateUrl: 'templates/client/view_products.html',
                 controller: 'ClientViewProductsCtrl'
             })
+            .state('deliveryman', {
+                abstract: true,
+                url: '/deliveryman',
+                templateUrl: 'templates/deliveryman/menu.html',
+                controller: 'DeliverymanMenuCtrl'
+            })
+            .state('deliveryman.orders', {
+                url: '/orders',
+                templateUrl: 'templates/deliveryman/order_list.html',
+                controller: 'DeliverymanOrderListCtrl'
+            })
+            .state('deliveryman.order_detail', {
+                cache: false,
+                url: '/order/:id',
+                templateUrl: 'templates/deliveryman/order_show.html',
+                controller: 'DeliverymanOrderShowCtrl'
+            })
 
         $urlRouterProvider.otherwise('/login');
 
@@ -156,6 +173,40 @@ angular.module('starter', [
                 });
             }
         ]);*/
+    })
+    .run(function($rootScope, OAuth, $state) {
+        $rootScope.$on('$locationChangeStart', function(a, nextState, currentState){
+            //console.log('asd', a, b, c);
+            //console.log(OAuth.isAuthenticated());
+            if(!OAuth.isAuthenticated()){
+                /*console.log('1');
+                try{
+                    console.log('refresh token');
+                    console.log(OAuth.getRefreshToken());
+                    $state.go(nextState);
+                } catch (e){
+                    console.log('va login');*/
+                    $state.go('login');
+                //}
+            }
+        });
+        $rootScope.$on('oauth:error', function (event, data) {
+            console.log('oauthError', event, data);
+            // Ignore `invalid_grant` error - should be catched on `LoginController`.
+            if ('invalid_grant' === rejection.data.error) {
+                $state.go('login');
+            }
+
+            // Refresh token when a `invalid_token` error occurs.
+            if ('invalid_token' === rejection.data.error) {
+                return OAuth.getRefreshToken();
+            }
+
+            // Redirect to `/login` with the `error_reason`.
+            //return $window.location.href = '/login?error_reason=' + rejection.data.error;
+
+            $state.go('login');
+        })
     })
     .service('cart', function(){
         this.items = [];

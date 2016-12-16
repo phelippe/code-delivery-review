@@ -13,7 +13,7 @@ controller('ClientViewProductsCtrl', [
             $scope.products = data.data;
             $ionicLoading.hide();
         }, function(error){
-            console.log(error);
+            //console.log(error);
             $ionicLoading.hide();
         });
 
