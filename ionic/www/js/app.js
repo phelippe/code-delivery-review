@@ -17,9 +17,9 @@ angular.module('starter', [
         order: {
             status: [
                 { value: 0, label: 'Não iniciada'},
-                { value: 1, label: 'Não iniciada'},
-                { value: 2, label: 'Não iniciada'},
-                { value: 3, label: 'Não iniciada'},
+                { value: 1, label: 'Despachada'},
+                { value: 2, label: 'Em rota de entrega'},
+                { value: 3, label: 'Entregue'},
             ]
         }
     })
@@ -74,6 +74,7 @@ angular.module('starter', [
             })
             .state('client', {
                 abstract: true,
+                cache: false,
                 url: '/client',
                 //template: '<ion-nav-view/>'
                 templateUrl: 'templates/client/menu.html',
@@ -83,9 +84,6 @@ angular.module('starter', [
                 url: '/authenticated',
                 templateUrl: 'templates/client/authenticated.html',
                 controller: 'ClientProfileCtrl'
-                /*controller: function($scope){
-                    console.log('HOME');
-                },*/
             })
             .state('client.orders', {
                 //cache: false, #opção 1 |  opção 2: utilizado refresher
@@ -122,6 +120,7 @@ angular.module('starter', [
             })
             .state('deliveryman', {
                 abstract: true,
+                cache: false,
                 url: '/deliveryman',
                 templateUrl: 'templates/deliveryman/menu.html',
                 controller: 'DeliverymanMenuCtrl'

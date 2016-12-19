@@ -1,7 +1,7 @@
 angular.module('starter.controllers').
 controller('ClientCheckoutCtrl', [
-    '$scope', '$state', '$cart', 'OrderService', '$ionicLoading', '$ionicPopup', 'CupomService', '$cordovaBarcodeScanner',
-    function($scope, $state, $cart, OrderService, $ionicLoading, $ionicPopup, CupomService, $cordovaBarcodeScanner){
+    '$scope', '$state', '$cart', 'ClientOrderService', '$ionicLoading', '$ionicPopup', 'CupomService', '$cordovaBarcodeScanner',
+    function($scope, $state, $cart, ClientOrderService, $ionicLoading, $ionicPopup, CupomService, $cordovaBarcodeScanner){
 
         var cart = $cart.get();
 
@@ -46,7 +46,7 @@ controller('ClientCheckoutCtrl', [
                     template: 'O valor de desconto do cupom é superior ao valor do produto! Por favor adicione mais itens ao carrinho'
                 });
             } else {
-                OrderService.save({id: null}, o, function (data) { //#sucesso
+                ClientOrderService.save({id: null}, o, function (data) { //#sucesso
                     $ionicLoading.hide();
                     $state.go('client.checkout_successful');
                 }, function (responseError) { //#erro

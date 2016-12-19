@@ -3,6 +3,8 @@
 namespace CodeDelivery\Repositories;
 
 use CodeDelivery\Presenters\OrderPresenter;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use League\Fractal\Resource\Collection;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
 use CodeDelivery\Models\Order;
@@ -44,19 +46,16 @@ class OrderRepositoryEloquent extends BaseRepository implements OrderRepository
 
     public function getByIdAndDeliveryman($order_id, $deliveyman_id)
     {
-        $result = $this->with(['client', 'items', 'cupom'])->findWhere([
-            'id' => $order_id,
-            'user_deliveryman_id' => $deliveyman_id
-        ]);
+        $result = $this->model
+          ->where('id', $order_id)
+          ->where('user_deliveryman_id', $deliveyman_id)
+          ->first();
 
-        $result = $result->first();
-
+        //dd($result);
         if($result){
-            $result->items->each(function($item){
-                $item->product;
-            });
+            return $this->parserResult($result);
         }
 
-        return $result;
+        return (new ModelNotFoundException())->setModel(get_class($this->model));
     }
 }

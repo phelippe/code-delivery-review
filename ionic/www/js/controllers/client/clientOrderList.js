@@ -1,7 +1,7 @@
 angular.module('starter.controllers').
     controller('ClientOrderListCtrl', [
-    '$scope', '$state', '$cart', 'OrderService','$ionicLoading', '$ionicPopup',
-    function($scope, $state, $cart, OrderService, $ionicLoading, $ionicPopup){
+    '$scope', '$state', '$cart', 'ClientOrderService','$ionicLoading', '$ionicPopup',
+    function($scope, $state, $cart, ClientOrderService, $ionicLoading, $ionicPopup){
 
         $scope.orders = [];
 
@@ -11,7 +11,7 @@ angular.module('starter.controllers').
 
 
         function getOrders() {
-            return OrderService.query({
+            return ClientOrderService.query({
                 id: null,
                 orderBy: 'created_at',
                 sortedBy: 'desc'

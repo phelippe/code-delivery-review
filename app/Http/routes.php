@@ -105,6 +105,9 @@ Route::group(['middleware'=>'cors'], function(){
                 'uses'=> 'Api\Deliveryman\DeliverymanCheckoutController@updateStatus',
                 'as'=> 'order.update-status'
             ]);
+            Route::post('order/{id}/geo', [
+                'as'=>'orders.geo', 'uses'=>'Api\Deliveryman\DeliverymanCheckoutController@geo'
+            ]);
         });
 
         Route::get('cupom/{code}', 'Api\CupomController@show');

@@ -9,7 +9,7 @@
             <ion-item ng-repeat="o in orders" ng-click="openOrderDetail(o.id)">
                 <div class="row">
                     <div class="col">
-                        <h2>{{o.created_at.date | limitTo: 10 |date: 'dd/MM/yyyy'}}</h2>
+                        <h2>{{o.created_at.date | limitTo: 10 | date: 'dd/MM/yyyy'}}</h2>
                         <p>{{o.names | limitTo:2 | join: ', ' }}</p>
                         <i class="ion ion-os-cart">{{o.names.length}} Items</i>
                     </div>

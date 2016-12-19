@@ -1,34 +1,30 @@
 angular.module('starter.controllers').
     controller('LoginCtrl', [
-    '$scope', 'OAuth', '$ionicPopup', '$state', '$q', function($scope, OAuth, $ionicPopup, $state, $q){
+    '$scope', 'OAuth', 'OAuthToken', '$ionicPopup', '$state', 'UserData', 'ClientService',
+    function($scope, OAuth, OAuthToken, $ionicPopup, $state, UserData, ClientService){
 
         $scope.user = {
             username: '',
             password: ''
         }
 
-        function adiarExecucao(){
-            var deffered = $q.defer();
-
-            setTimeout(function(){
-                deffered.resolve({name: 'ionic'});
-            }, 2000);
-            return deffered.promise;
-        };
-
-        adiarExecucao().then(function(data){
-            console.log(data);
-        });
-
         $scope.login = function(){
-            OAuth.getAccessToken($scope.user)
+            var promise = OAuth.getAccessToken($scope.user);
+
+            promise
                 .then(function(data){
-
-                    /*console.log(data);
-                    console.log($cookies.getObject('token'));*/
-                    $state.go('client.checkout');
-
-                }, function (responseError) {
+                    return ClientService.authenticated({include: 'client'}).$promise;
+                }).then(function(data){
+                    console.log(data.data);
+                    UserData.set(data.data);
+                    if(data.data.role == 'deliveryman'){
+                        $state.go('deliveryman.orders');
+                    } else {
+                        $state.go('client.checkout');
+                    }
+                }, function(responseError){
+                    UserData.set(null);
+                    OAuthToken.removeToken();
                     $ionicPopup.alert({
                         title: 'Advertência',
                         template: 'Login e/ou senha inválidos'

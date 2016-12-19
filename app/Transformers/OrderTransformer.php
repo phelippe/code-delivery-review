@@ -30,7 +30,7 @@ class OrderTransformer extends TransformerAbstract
             'id'         => (int) $model->id,
             'total'         => (float) $model->total,
             'status'         => $this->getStatusName($model->status),
-            'items'      => $model->items,
+            //'items'      => $model->items,
             'names'      => $this->getArrayProductNames($model->items),
 
             /* place your other model properties here */

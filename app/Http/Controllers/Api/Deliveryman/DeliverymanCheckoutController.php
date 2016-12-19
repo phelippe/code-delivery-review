@@ -2,8 +2,10 @@
 
 namespace CodeDelivery\Http\Controllers\Api\Deliveryman;
 
+use CodeDelivery\Events\GetLocationDeliveyman;
 use CodeDelivery\Http\Controllers\Controller;
 use CodeDelivery\Http\Requests;
+use CodeDelivery\Models\Geo;
 use CodeDelivery\Models\Order;
 use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Repositories\ProductRepository;
@@ -43,9 +45,14 @@ class DeliverymanCheckoutController extends Controller
     {
         $id = Authorizer::getResourceOwnerId();
 
-        $orders = $this->orderRepository->with(['items'])->scopeQuery(function($query) use ($id){
-            return $query->where('user_deliveryman_id', '=', $id);
-        })->paginate();
+        $orders = $this
+          ->orderRepository
+          ->skipPresenter(false)
+          ->with(['items'])
+          ->scopeQuery(function($query) use ($id){
+                return $query->where('user_deliveryman_id', '=', $id);
+            })
+          ->paginate();
 
         return $orders;
     }
@@ -54,21 +61,33 @@ class DeliverymanCheckoutController extends Controller
     {
         $id_deliveryman = Authorizer::getResourceOwnerId();
 
-        return $this->orderRepository->getByIdAndDeliveryman($id, $id_deliveryman);
+        return $this->orderRepository->skipPresenter(false)->getByIdAndDeliveryman($id, $id_deliveryman);
+        /*return $this->orderRepository
+          ->skipPresenter(false)
+          ->with(['items'])
+          ->scopeQuery(function($query) use ($id_deliveryman){
+              return $query->where('user_deliveryman_id', '=', $id_deliveryman);
+          })
+          ->find($id);*/
     }
 
     public function updateStatus(Request $request, $id)
     {
         $id_deliveryman = Authorizer::getResourceOwnerId();
 
-        #dd($request->get('status'), $id);
-        $order = $this->orderService->updateStatus($id, $id_deliveryman, $request->get('status'));
-        #dd($order);
+        return $this->orderService->updateStatus($id, $id_deliveryman, $request->get('status'));
+    }
 
-        if($order instanceof Order){
-            return $order;
-        }
+    public function geo(Request $request, Geo $geo, $id)
+    {
+        $id_deliveryman = Authorizer::getResourceOwnerId();
 
-        abort(400, 'Order não encontrada');
+        $order = $this->orderRepository->getByIdAndDeliveryman($id, $id_deliveryman);
+        $geo->lat = $request->get('lat');
+        $geo->long = $request->get('long');
+
+        event(new GetLocationDeliveyman($geo, $order));
+
+        return $geo;
     }
 }

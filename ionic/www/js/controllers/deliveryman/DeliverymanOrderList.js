@@ -1,7 +1,7 @@
 angular.module('starter.controllers').
-    controller('ClientOrderListCtrl', [
-    '$scope', '$state', '$cart', 'OrderService','$ionicLoading', '$ionicPopup',
-    function($scope, $state, $cart, OrderService, $ionicLoading, $ionicPopup){
+    controller('DeliverymanOrderListCtrl', [
+    '$scope', '$state', '$cart', 'DeliverymanOrderService','$ionicLoading', '$ionicPopup',
+    function($scope, $state, $cart, DeliverymanOrderService, $ionicLoading, $ionicPopup){
 
         $scope.orders = [];
 
@@ -11,7 +11,7 @@ angular.module('starter.controllers').
 
 
         function getOrders() {
-            return OrderService.query({
+            return DeliverymanOrderService.query({
                 id: null,
                 orderBy: 'created_at',
                 sortedBy: 'desc'
@@ -23,9 +23,10 @@ angular.module('starter.controllers').
             $scope.orders = data.data;
 
             $ionicLoading.hide();
+            //console.log($scope.orders);
             //$state.go('client.checkout_successful');
         }, function (responseError) { //#erro
-            //console.log(response  Error);
+            console.log(responseError);
             $ionicLoading.hide();
             $ionicPopup.alert({
                 title: 'Advertência',
@@ -47,7 +48,7 @@ angular.module('starter.controllers').
         };
 
         $scope.openOrderDetail = function(index){
-            $state.go('client.order_detail', {id: index});
+            $state.go('deliveryman.order_detail', {id: index});
         }
     }
 ]);

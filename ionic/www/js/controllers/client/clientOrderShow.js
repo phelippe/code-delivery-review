@@ -1,7 +1,7 @@
 angular.module('starter.controllers').
     controller('ClientOrderShowCtrl', [
-    '$scope', '$stateParams', 'OrderService', '$ionicLoading',
-    function($scope, $stateParams, OrderService, $ionicLoading){
+    '$scope', '$stateParams', 'ClientOrderService', '$ionicLoading',
+    function($scope, $stateParams, ClientOrderService, $ionicLoading){
 
         $scope.order = {};
 
@@ -9,7 +9,7 @@ angular.module('starter.controllers').
             template: 'Carregando ...'
         });
 
-        OrderService.get({
+        ClientOrderService.get({
             id: $stateParams.id,
             include: 'items,cupom'
         },function(data){ //#sucesso
