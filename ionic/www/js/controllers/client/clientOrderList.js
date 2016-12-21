@@ -1,7 +1,7 @@
 angular.module('starter.controllers').
     controller('ClientOrderListCtrl', [
-    '$scope', '$state', '$cart', 'ClientOrderService','$ionicLoading', '$ionicPopup',
-    function($scope, $state, $cart, ClientOrderService, $ionicLoading, $ionicPopup){
+    '$scope', '$state', '$cart', 'ClientOrderService','$ionicLoading', '$ionicPopup', '$ionicActionSheet',
+    function($scope, $state, $cart, ClientOrderService, $ionicLoading, $ionicPopup, $ionicActionSheet){
 
         $scope.orders = [];
 
@@ -46,8 +46,32 @@ angular.module('starter.controllers').
             });
         };
 
-        $scope.openOrderDetail = function(index){
-            $state.go('client.order_detail', {id: index});
+        $scope.openOrderDetail = function(order){
+            $state.go('client.order_detail', {id: order.id});
         }
+
+        $scope.showActionSheet = function (order){
+            $ionicActionSheet.show({
+                buttons: [
+                    {text: 'Ver Detalhes'},
+                    {text: 'Ver entrega'}
+                ],
+                titleText: 'O que fazer ?',
+                cancelText: 'Cancelar',
+                cancel: function(){ //Cancelamento
+                    //console.log('cancel');
+                },
+                buttonClicked: function(index){ //Cancelamento
+                    switch (index){
+                        case 0:
+                            $state.go('client.order_detail', {id: order.id});
+                            break;
+                        case 1:
+                            $state.go('client.view_delivery', {id: order.id});
+                            break;
+                    }
+                },
+            });
+        };
     }
 ]);

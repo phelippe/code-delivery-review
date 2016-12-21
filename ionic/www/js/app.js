@@ -12,8 +12,8 @@ angular.module('starter', [
     'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource', 'ngCordova', 'starter.filters'
 ])
     .constant('appConfig', {
-        baseUrl: 'http://localhost:8000',
-        //baseUrl: 'http://192.168.1.154:8000',
+        //baseUrl: 'http://localhost:8000',
+        baseUrl: 'http://192.168.1.154:8000',
         order: {
             status: [
                 { value: 0, label: 'Não iniciada'},
@@ -95,6 +95,11 @@ angular.module('starter', [
                 url: '/order/:id',
                 templateUrl: 'templates/client/order_show.html',
                 controller: 'ClientOrderShowCtrl'
+            })
+            .state('client.view_delivery', {
+                url: '/delivery/:id',
+                templateUrl: 'templates/client/order_delivery.html',
+                controller: 'ClientDeliveryCtrl'
             })
             .state('client.checkout', {
                 cache: false,
