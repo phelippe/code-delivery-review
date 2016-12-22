@@ -9,11 +9,12 @@ angular.module('starter.services', []);
 angular.module('starter.filters', []);
 
 angular.module('starter', [
-    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource', 'ngCordova', 'starter.filters'
+    'ionic', 'angular-oauth2', 'starter.controllers', 'starter.services', 'ngResource', 'ngCordova',
+    'starter.filters', 'uiGmapgoogle-maps'
 ])
     .constant('appConfig', {
         //baseUrl: 'http://localhost:8000',
-        baseUrl: 'http://192.168.1.154:8000',
+        baseUrl: 'http://192.168.1.119:8000',
         order: {
             status: [
                 { value: 0, label: 'Não iniciada'},

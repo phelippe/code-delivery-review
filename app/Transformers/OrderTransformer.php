@@ -29,7 +29,8 @@ class OrderTransformer extends TransformerAbstract
         return [
             'id'         => (int) $model->id,
             'total'         => (float) $model->total,
-            'status'         => $this->getStatusName($model->status),
+            #'status'         => $this->getStatusName($model->status),
+            'status'         => $model->status,
             //'items'      => $model->items,
             'names'      => $this->getArrayProductNames($model->items),
 
@@ -49,7 +50,7 @@ class OrderTransformer extends TransformerAbstract
         return $names;
     }
 
-    protected function getStatusName($idStatus)
+    /*protected function getStatusName($idStatus)
     {
         $statusName = "";
         switch($idStatus){
@@ -75,7 +76,7 @@ class OrderTransformer extends TransformerAbstract
             }
         }
         return $statusName;
-    }
+    }*/
 
     public function includeCupom(Order $model){
         if(!$model->cupom){
