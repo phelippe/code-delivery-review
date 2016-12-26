@@ -4,15 +4,11 @@ namespace CodeDelivery\Http\Controllers\Api\Deliveryman;
 
 use CodeDelivery\Events\GetLocationDeliveyman;
 use CodeDelivery\Http\Controllers\Controller;
-use CodeDelivery\Http\Requests;
 use CodeDelivery\Models\Geo;
-use CodeDelivery\Models\Order;
 use CodeDelivery\Repositories\OrderRepository;
-use CodeDelivery\Repositories\ProductRepository;
 use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Services\OrderService;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
 class DeliverymanCheckoutController extends Controller

@@ -1,85 +1,13 @@
 # Changelog
 
-## 4.0.0 (2016-12-01)
-
-New major version released due to breaking changes.
-
-[CHANGED] rename bind_all to bind_global
-
-[NEW] unbind_global to remove global bindings
-
-[CHANGED] unbind_all now removes global bindings as well as event specific
-
-[NEW] expose context to pusher level bindings
-
-## 3.2.4 (2016-10-29)
-
-[FIXED] Subscriptions are reinstated correctly after a disconnection and
-reconnection. Regression introduced in 3.2.3.
-
-## 3.2.3 (2016-10-22)
-
-[NEW] Cancelled subscriptions are now re-instated on subsequent `subscribe`
-calls, allowing arbitrary chains of `subscribe`/`unsubscribe` calls, where the
-final method is always respected regardless of the timings.
-See [PR 201](https://github.com/pusher/pusher-js/pull/201) for details.
-
-## 3.2.2 (2016-10-03)
-
-[FIXED] Fix unsubscribe behaviour while subscription is pending (thanks to @hot-leaf-juice).
-
-## 3.2.1 (2016-08-02)
-
-[FIXED] Removes instances of evalling for global scope in timers module.
-
-## 3.2.0 (2016-08-01)
-
-[FIXED] CSP Issue with 3.1 in Chrome extension background context. #168
-
-[FIXED] Stringifying circular JSON structures for React Native. #182
-
-[NEW] Add a new global unbind method.
-
-[INTERNAL] Uses webpack define plugin to specify the global for each runtime.
-
-## 3.1.0 (2016-05-08)
-
-[NEW] New builds for ReactNative, NodeJS and Web Workers. The first two are available on NPM. The last is available as a download.
-
-[FIXED] The library no longer swallows connected exceptions. (#105)
-
-[FIXED] Callback removal issues in Safari 9 (#125 #129)
-
-[CHANGED] Monkey-patching the DependencyLoader when self-hosting no longer supported. New steps in README.
-
-[CHANGED] HTTP fallbacks are now included as part of the main file and are not therefore dynamically loaded.
-
-[INTERNAL] Ported to TypeScript.
-
-[INTERNAL] The library is split into a core directory and a runtimes directory to make a separation between platform-independent and platform-specific code.
-
-[INTERNAL] Uses Webpack as a bundler.
-
-[INTERNAL] Testing suites for NodeJS and workers.
-
-[INTERNAL] TravisCI + Browserstack setup.
-
-[INTERNAL] NodeJS and ReactNative builds use XMLHttpRequest polyfills for authorization and session timelines. Workers use the `fetch` API.
-
-## 3.1.0-pre
-
-[NEW] Added Pusher.logToConsole to log to console as a short-hand for writing a Pusher.log function to do so
-
 ## 3.0.0 (2015-04-23)
 
 [NEW] Introduce package.json, pusher-js will be published on NPM !
-
-[NEW] added header/footer for UMD, allows CommonJS loaders to use pusher-js
+[NEW] added header/footer for UMD, allows CommonJS loaded to use pusher-js
 
 [CHANGED] Remove the Flash fallback
 
 [FIXED] double-unsubscribe is now idempotent
-
 [FIXED] Serve only distribution files via Bower
 
 [INTERNAL] Cleaned up a lot of the build process, makes contributing easier

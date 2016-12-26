@@ -33,6 +33,7 @@ class OrderTransformer extends TransformerAbstract
             'status'         => $model->status,
             //'items'      => $model->items,
             'names'      => $this->getArrayProductNames($model->items),
+            'hash'       => $model->hash,
 
             /* place your other model properties here */
 

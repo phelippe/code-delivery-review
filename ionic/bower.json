@@ -10,7 +10,7 @@
     "ngCordova": "^0.1.27-alpha",
     "angular-google-maps": "2.3.3",
     "lodash": "3.8.0",
-    "pusher-angular": "^0.1.9",
-    "pusher-js": "pusher#^4.0.0"
+    "pusher-angular": "^0.1.8",
+    "pusher": "3.0.0"
   }
 }

@@ -18,6 +18,6 @@ return [
     #'allowedMethods' => ['GET','POST','PATCH','DELETE', 'PUT'],
     'exposedHeaders' => [],
     'maxAge' => 0,
-    'hosts' => [],
+    'hosts' => ['*'],
 ];
 

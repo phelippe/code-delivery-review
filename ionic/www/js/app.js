@@ -13,8 +13,8 @@ angular.module('starter', [
     'starter.filters', 'uiGmapgoogle-maps', 'pusher-angular'
 ])
     .constant('appConfig', {
-        //baseUrl: 'http://localhost:8000',
-        baseUrl: 'http://192.168.1.119:8000',
+        baseUrl: 'http://localhost:8000',
+        //baseUrl: 'http://192.168.1.119:8000',
         pusherKey: '0c268d939687884d3f58',
         order: {
             status: [
@@ -26,8 +26,10 @@ angular.module('starter', [
         }
     })
 
-    .run(function($ionicPlatform, $window) {
-        $window.client = new Pusher(appConfig.pusherKey);
+    .run(function($ionicPlatform, $window, appConfig) {
+
+      $window.client = new Pusher(appConfig.pusherKey);
+
       $ionicPlatform.ready(function() {
         if(window.cordova && window.cordova.plugins.Keyboard) {
           // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

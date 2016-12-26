@@ -47,7 +47,7 @@ angular.module('starter.controllers').
                 watch.then(
                     null, //metodo de sucesso
                     function (responseError){ //erro
-
+                        console.log(responseError);
                     },
                     function (position){ // metodo de notificação
                         //console.log(position, watch);
