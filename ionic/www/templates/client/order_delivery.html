@@ -20,8 +20,8 @@
                 </div>
             </ion-item>
         </ion-list>
-        <ui-gmap-google-map center="map.center" zoom="map.zoom">
-            <ui-gmap-marker idkey="o.id" coords="o.coords" options="o.otions" ng-repeat="o in markers">
+        <ui-gmap-google-map center="map.center" zoom="map.zoom" bounds="map.bounds">
+            <ui-gmap-marker idkey="o.id" coords="o.coords" options="o.otions" ng-repeat="o in markers" >
             </ui-gmap-marker>
         </ui-gmap-google-map>
     </ion-content>
