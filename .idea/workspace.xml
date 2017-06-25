@@ -2,9 +2,388 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89f868e8-5049-4ae3-9053-e979a9afc36c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/readme.txt" afterPath="$PROJECT_DIR$/ionic/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/js/controllers/client/clientDelivery.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers/client/clientDelivery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/www/templates/client/order_delivery.html" afterPath="$PROJECT_DIR$/ionic/www/templates/client/order_delivery.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/angular-animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/angular-animate.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/angular-animate.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-animate/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/LICENSE.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/angular-cookies.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/angular-cookies.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/angular-cookies.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/angular-cookies.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-cookies/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/.eslintrc" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/.npmignore" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/.travis.yml" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/.travis/deploy.enc" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/.travis/deploy.enc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/Gruntfile.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/Gruntfile.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps-street-view.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps-street-view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps-street-view.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps-street-view.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps-street-view_dev_mapped.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps_dev_mapped.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps_dev_mapped.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps_dev_mapped.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps_dev_mapped.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/dist/angular-google-maps_dev_mapped.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/dist/angular-google-maps_dev_mapped.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/karma.conf.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/karma.conf.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/coffee/bootstrap/bootstrap.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/coffee/bootstrap/bootstrap.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/coffee/bootstrap/google-api-mock.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/coffee/bootstrap/google-api-mock.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/coffee/bootstrap/google-map-spec-controller.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/coffee/bootstrap/google-map-spec-controller.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/coffee/bootstrap/initiator.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/coffee/bootstrap/initiator.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/coffee/helpers/helper.mockEvents.spec.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/coffee/helpers/helper.mockEvents.spec.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/coffee/helpers/helper.polyline.spec.coffee" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/coffee/helpers/helper.polyline.spec.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-google-maps/spec/js/.keep" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-google-maps/spec/js/.keep" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/dist/angular-oauth2.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/dist/angular-oauth2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/dist/angular-oauth2.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/dist/angular-oauth2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/angular-oauth2.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/src/angular-oauth2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/config/oauth-config.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/src/config/oauth-config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/interceptors/oauth-interceptor.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/src/interceptors/oauth-interceptor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/providers/oauth-provider.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/src/providers/oauth-provider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-oauth2/src/providers/oauth-token-provider.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-oauth2/src/providers/oauth-token-provider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-cookies/LICENSE.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/angular-resource.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/angular-resource.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/angular-resource.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/angular-resource.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-resource/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-resource/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/angular-sanitize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/angular-sanitize.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-sanitize/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/angular-simple-logger.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/angular-simple-logger.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/angular-simple-logger.light.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/angular-simple-logger.light.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/angular-simple-logger.light.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/angular-simple-logger.light.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/angular-simple-logger.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/angular-simple-logger.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/browser.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-simple-logger/dist/index.light.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-simple-logger/dist/index.light.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/common.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/resolve.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/state.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/stateDirectives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/stateFilters.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/templateFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/urlRouter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/view.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/viewDirective.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/viewScroll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/angular-csp.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/angular.min.js.gzip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/angular.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-infobox/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-infobox/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-infobox/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-markerwithlabel/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-infobox/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-infobox/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-infobox/dist/infobox.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-infobox/dist/infobox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-infobox/dist/infobox.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-infobox/dist/infobox.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-keydragzoom/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-keydragzoom/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-keydragzoom/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-keydragzoom/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-keydragzoom/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-keydragzoom/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-markerwithlabel/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-markerwithlabel/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-markerwithlabel/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-infobox/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-markerwithlabel/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-markerwithlabel/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-markerwithlabel/dist/markerwithlabel.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-markerwithlabel/dist/markerwithlabel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-markerwithlabel/dist/markerwithlabel.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-markerwithlabel/dist/markerwithlabel.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/google-maps-utility-library-v3-markerwithlabel/examples/home.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/google-maps-utility-library-v3-markerwithlabel/examples/home.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/css/ionic.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/css/ionic.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/css/ionic.min.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/css/ionic.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.eot" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/fonts/ionicons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/fonts/ionicons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.ttf" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/fonts/ionicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.woff" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/fonts/ionicons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic-angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/js/ionic-angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic-angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/js/ionic-angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/js/ionic.bundle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.bundle.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/js/ionic.bundle.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/js/ionic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/js/ionic.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_action-sheet.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_action-sheet.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_animations.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_animations.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_backdrop.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_backdrop.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_badge.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_badge.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_bar.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_bar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_button-bar.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_button-bar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_button.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_button.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_checkbox.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_checkbox.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_form.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_form.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_grid.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_items.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_items.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_list.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_loading.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_loading.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_menu.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_menu.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_mixins.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_modal.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_modal.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_platform.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_platform.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_popover.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_popover.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_popup.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_popup.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_progress.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_progress.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_radio.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_radio.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_range.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_range.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_refresher.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_refresher.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_reset.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_reset.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_scaffolding.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_scaffolding.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_select.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_select.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_slide-box.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_slide-box.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_slides.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_slides.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_spinner.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_spinner.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_tabs.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_tabs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_toggle.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_toggle.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_transitions.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_transitions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_type.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_type.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_util.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_util.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionic.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/ionic.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/ionicons/_ionicons-font.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/ionicons/_ionicons-icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/ionicons/_ionicons-variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/ionicons/ionicons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/tsconfig.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/ionic/scss/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/AUTHORS" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/AUTHORS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/CONTRIBUTORS" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/CONTRIBUTORS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/examples/richmarker.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/examples/richmarker.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/reference.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/reference.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/screenshot.jpg" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/screenshot.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/src/richmarker-compiled.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/src/richmarker-compiled.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/js-rich-marker/src/richmarker.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/js-rich-marker/src/richmarker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/lodash/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/lodash/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/lodash/LICENSE.txt" afterPath="$PROJECT_DIR$/ionic/www/lib_/lodash/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/lodash/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/lodash/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/lodash/lodash.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/lodash/lodash.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/lodash/lodash.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/lodash/lodash.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/.editorconfig" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/.editorconfig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/.gitattributes" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/.gitattributes" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/.gitignore" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/dist/markerclusterer.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/dist/markerclusterer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/examples/advanced_example.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/examples/advanced_example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/examples/events_example.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/examples/events_example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/examples/markerclustererplus.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/examples/markerclustererplus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/examples/simple_example.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/examples/simple_example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/examples/speed_test.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/examples/speed_test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/examples/speed_test_example.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/examples/speed_test_example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/conv30.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/conv30.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/conv40.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/conv40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/conv50.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/conv50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/heart30.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/heart30.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/heart40.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/heart40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/heart50.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/heart50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/m1.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/m1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/m2.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/m2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/m3.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/m3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/m4.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/m4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/m5.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/m5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/people35.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/people35.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/people45.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/people45.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/images/people55.png" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/images/people55.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/src/data.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/src/data.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/src/markerclusterer.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/src/markerclusterer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/src/markerclusterer.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/src/markerclusterer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/markerclustererplus/src/markerclusterer_packaged.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/markerclustererplus/src/markerclusterer_packaged.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/LICENSE" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/README.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/dist/ng-cordova-mocks.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/dist/ng-cordova-mocks.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/dist/ng-cordova-mocks.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/dist/ng-cordova.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/dist/ng-cordova.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/dist/ng-cordova.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/dist/ng-cordova.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/ngCordova/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/ngCordova/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/app/views/index.ejs" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/app/views/index.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/Countable/Countable.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/Countable/Countable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/Countable/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/Countable/LICENSE.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/Countable/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/Countable/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular-csp.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.min.js.gzip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/app/views/index.ejs" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/app/views/index.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/Countable/Countable.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/Countable/Countable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/Countable/LICENSE.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/Countable/LICENSE.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/Countable/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/Countable/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/angular-csp.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/angular.min.js.gzip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/angular.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/pusher-angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/pusher-angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/pusher-angular/lib/pusher-angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/pusher-angular/lib/pusher-angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/api/angular-ui-router.d.ts" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/api/angular-ui-router.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/release/angular-ui-router.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/release/angular-ui-router.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/common.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/resolve.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/state.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/state.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/stateDirectives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/stateFilters.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/templateFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/urlMatcherFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/urlRouter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/view.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/ui-router/src/viewDirective.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/viewScroll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/css/style.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/js/app.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/js/controllers.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/js/controllers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/js/directives.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/js/directives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/js/services.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/js/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/views/setup.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/views/setup.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/public/views/text.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/views/text.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/example/server.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/lib/pusher-angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/lib/pusher-angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/lib/pusher-angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/lib/pusher-angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/angular-mocks.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular-mocks/angular-mocks.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular-mocks/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/ngAnimateMock.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular-mocks/ngAnimateMock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/ngMock.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular-mocks/ngMock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/ngMockE2E.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular-mocks/ngMockE2E.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular-mocks/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/angular-csp.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/angular.min.js.gzip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/angular.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/public/components/angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/public/components/angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/pusher-angular/travis_karma.conf.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/travis_karma.conf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/api/angular-ui-router.d.ts" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/api/angular-ui-router.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/release/angular-ui-router.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/release/angular-ui-router.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/common.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/resolve.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/state.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/state.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/stateDirectives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/stateFilters.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/templateFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/urlMatcherFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/urlRouter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/view.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/components/ui-router/src/viewDirective.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/components/ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular-ui-router/src/viewScroll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/css/style.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/js/app.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/js/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/js/controllers.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/js/controllers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/js/directives.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/js/directives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/js/services.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/js/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/views/setup.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/views/setup.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/public/views/text.html" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/public/views/text.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/example/server.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/example/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/lib/pusher-angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/lib/pusher-angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/lib/pusher-angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/lib/pusher-angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular-mocks/angular-mocks.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/angular-mocks.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular-mocks/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular-mocks/ngAnimateMock.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/ngAnimateMock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular-mocks/ngMock.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/ngMock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular-mocks/ngMockE2E.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/ngMockE2E.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular-mocks/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular-mocks/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular-csp.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.min.js.gzip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/angular.min.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/index.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/angular/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/public/components/angular/package.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/public/components/angular/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher-angular/travis_karma.conf.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher-angular/example/public/components/pusher-angular/travis_karma.conf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/CHANGELOG.markdown" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/CHANGELOG.markdown" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/LICENCE" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/LICENCE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/README.markdown" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/README.markdown" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/json2.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/json2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/json2.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/json2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/pusher.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/pusher.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/pusher.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/pusher.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/sockjs.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/sockjs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/sockjs.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/sockjs.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/xdr.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/xdr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/xdr.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/xdr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/xhr.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/xhr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/pusher/dist/xhr.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/pusher/dist/xhr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/.bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/query-string/.bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/bower.json" afterPath="$PROJECT_DIR$/ionic/www/lib_/query-string/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/license" afterPath="$PROJECT_DIR$/ionic/www/lib_/query-string/license" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/query-string.js" afterPath="$PROJECT_DIR$/ionic/www/lib_/query-string/query-string.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic/www/lib/query-string/readme.md" afterPath="$PROJECT_DIR$/ionic/www/lib_/query-string/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/code-delivery-review.iml" afterPath="$PROJECT_DIR$/.idea/code-delivery-review.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionic/bower.json" afterPath="$PROJECT_DIR$/ionic/bower.json" />
     </list>
     <ignored path="code-delivery-review.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,92 +416,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="16">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
+      <file leaf-file-name="RepositoryServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="28" column="10" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/bower.json">
+      <file leaf-file-name="OrdersController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OrdersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="176">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientDelivery.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientDelivery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeliverymanOrderShow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/DeliverymanOrderShow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_delivery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_delivery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetLocationDeliveyman.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Events/GetLocationDeliveyman.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="e#39#67#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeliverymanCheckoutController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeliverymanCheckoutController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
-              <folding>
-                <element signature="e#65#111#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="245">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
+      <file leaf-file-name="OrderPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Presenters/OrderPresenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientCheckoutController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientCheckoutController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -141,9 +486,28 @@
       <find>localhost</find>
       <find>white</find>
       <find>map</find>
+      <find>clientser</find>
+      <find>orderService</find>
+      <find>p</find>
+      <find>present</find>
+      <find>presenter</find>
+      <find>presenter(fa</find>
+      <find>presenter(tr</find>
+      <find>presenter(t</find>
+      <find>presenter(</find>
+      <find>presenter(f</find>
+      <find>presenter(fal</find>
+      <find>r</find>
+      <find>R</find>
+      <find>RU</find>
+      <find>RUL</find>
+      <find>RULE</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ionic/www/js</dir>
+      <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$/app/Services</dir>
+      <dir>$PROJECT_DIR$/app/Http/Controllers</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -152,7 +516,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/clientCheckoutSuccessful.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/checkout_successful.html" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ClientsController.php" />
         <option value="$PROJECT_DIR$/app/Transformers/ClientTransformer.php" />
@@ -185,7 +548,6 @@
         <option value="$PROJECT_DIR$/ionic/www/js/services/order.js" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/DeliverymanOrderList.js" />
         <option value="$PROJECT_DIR$/ionic/www/templates/deliveryman/order_show.html" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/ionic/package.json" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/order_list.html" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/clientDeliveryShow.js" />
@@ -199,10 +561,12 @@
         <option value="$PROJECT_DIR$/app/Events/GetLocationDeliveyman.php" />
         <option value="$PROJECT_DIR$/ionic/www/js/app.js" />
         <option value="$PROJECT_DIR$/ionic/www/index.html" />
-        <option value="$PROJECT_DIR$/ionic/bower.json" />
         <option value="$PROJECT_DIR$/ionic/www/templates/client/order_delivery.html" />
         <option value="$PROJECT_DIR$/ionic/readme.txt" />
         <option value="$PROJECT_DIR$/ionic/www/js/controllers/client/clientDelivery.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/ionic/bower.json" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientProductController.php" />
       </list>
     </option>
   </component>
@@ -293,9 +657,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="991" />
+    <option name="x" value="-1" />
+    <option name="width" value="1922" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -493,7 +857,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -547,247 +910,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="deliveryman">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="client">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="services">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="deliveryman">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ionic">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="www">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="client">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="config">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Providers">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -828,62 +951,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Http">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Api">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="code-delivery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Http">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Api">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Deliveryman">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -908,6 +975,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -922,19 +990,31 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ionic/www/templates/client" />
-      <recent name="$PROJECT_DIR$/ionic/www/js/controllers/client" />
-      <recent name="$PROJECT_DIR$/ionic" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ionic/www/js/controllers/deliveryman" />
       <recent name="$PROJECT_DIR$/ionic/www/templates/client" />
       <recent name="$PROJECT_DIR$/ionic/www/js/controllers/client" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ionic/www/templates/client" />
+      <recent name="$PROJECT_DIR$/ionic/www/js/controllers/client" />
+      <recent name="$PROJECT_DIR$/ionic" />
+      <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -1017,11 +1097,23 @@
       <workItem from="1482760015679" duration="982000" />
       <workItem from="1482772069913" duration="316000" />
       <workItem from="1482773497390" duration="7236000" />
+      <workItem from="1486067412151" duration="1272000" />
+      <workItem from="1486767003737" duration="40000" />
+      <workItem from="1494549054393" duration="189000" />
+      <workItem from="1494549516733" duration="170000" />
+      <workItem from="1494554906582" duration="117000" />
+      <workItem from="1494557992427" duration="627000" />
+      <workItem from="1494558628451" duration="285000" />
+      <workItem from="1494558934237" duration="7000" />
+      <workItem from="1495060943340" duration="11000" />
+      <workItem from="1496556906691" duration="702000" />
+      <workItem from="1496561280030" duration="44000" />
+      <workItem from="1496603826628" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23750000" />
+    <option name="totallyTimeSpent" value="27816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,27 +1125,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="991" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22630458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2614728" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19542067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1075,168 +1167,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/Geo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/OrderRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/prettus/l5-repository/src/Prettus/Repository/Eloquent/BaseRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="600" column="20" lean-forward="false" selection-start-line="600" selection-start-column="20" selection-end-line="600" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/OrderRepositoryEloquent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcast.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="936" column="20" lean-forward="false" selection-start-line="936" selection-start-column="20" selection-end-line="936" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_19_203409_add_hash_to_orders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/broadcasting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="98" column="66" lean-forward="false" selection-start-line="98" selection-start-column="66" selection-end-line="98" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/DeliverymanOrderList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a260d709-11fa-421e-aa64-7fc97f12c121/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/filters/join.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/ionic.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/ionic.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="78" lean-forward="false" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientOrderList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/lib/lodash/dist/lodash.min.js" />
-    <entry file="file://$PROJECT_DIR$/ionic/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/js/services/userData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1262,7 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,15 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,15 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,19 +1255,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="352" column="13" lean-forward="false" selection-start-line="352" selection-start-column="13" selection-end-line="352" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
     <entry file="file://$PROJECT_DIR$/ionic/www/js/services/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/DeliverymanOrderShow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/GetLocationDeliveyman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientDelivery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CupomsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1370,86 +1365,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/CupomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/ClientService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClientsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/CategoryRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/OrderRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/OrderRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Client/ClientCheckoutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/OrdersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/OrderItemRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/OrderItemRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Presenters/OrderPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/OrderTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
-          <folding>
-            <element signature="e#65#111#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/deliveryman/DeliverymanOrderShow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Events/GetLocationDeliveyman.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/templates/client/order_delivery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers/client/clientDelivery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        <state relative-caret-position="245">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
